@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="landscape" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6U5-pK-vwY">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,129 +13,705 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fond.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="evf-XV-nkH">
-                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <rect key="frame" x="0.0" y="-16" width="414" height="912"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4C-BG-jt8">
-                                <rect key="frame" x="169" y="247" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVs-Sj-mSF">
+                                <rect key="frame" x="295.33333333333331" y="554" width="103.66666666666669" height="89.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNx-F5-F7z">
-                                <rect key="frame" x="169" y="195" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trF-tf-nc6">
+                                <rect key="frame" x="155" y="554" width="104" height="89.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OdM-bT-b11">
-                                <rect key="frame" x="517" y="139" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unz-NB-KAU">
+                                <rect key="frame" x="15.000000000000007" y="554" width="103.66666666666669" height="89.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtV-Eb-48b">
-                                <rect key="frame" x="413" y="139" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNX-k3-QSa">
+                                <rect key="frame" x="15.000000000000007" y="454.33333333333331" width="103.66666666666669" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMJ-FP-v5k">
-                                <rect key="frame" x="331" y="139" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7K-TP-tCf">
+                                <rect key="frame" x="295.33333333333331" y="454.33333333333331" width="103.66666666666669" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKf-DT-sb0">
-                                <rect key="frame" x="243" y="139" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG4-cq-XsW">
+                                <rect key="frame" x="155" y="454.33333333333331" width="104" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-cG-9x8">
-                                <rect key="frame" x="169" y="139" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-pf-WQF">
+                                <rect key="frame" x="295.33333333333331" y="354.66666666666669" width="103.66666666666669" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaK-af-8oz">
-                                <rect key="frame" x="527" y="73" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-fK-RuZ">
+                                <rect key="frame" x="155" y="354.66666666666669" width="104" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVi-i8-Vhm">
-                                <rect key="frame" x="426" y="73" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aug-K0-hDX">
-                                <rect key="frame" x="331" y="70" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-ek-df6">
-                                <rect key="frame" x="227" y="70" width="106" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38E-nT-w83">
-                                <rect key="frame" x="204" y="13.333333333333336" width="444" height="52.000000000000007"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4C-BG-jt8">
+                                <rect key="frame" x="15.000000000000007" y="155.66666666666666" width="103.66666666666669" height="89.666666666666657"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="444" id="g3d-NO-uAp"/>
+                                    <constraint firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="height" multiplier="103:89" id="rG3-ld-weu"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKf-DT-sb0">
+                                <rect key="frame" x="15.000000000000007" y="255.33333333333334" width="103.66666666666669" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aug-K0-hDX">
+                                <rect key="frame" x="295.33333333333331" y="255.33333333333334" width="103.66666666666669" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-ek-df6">
+                                <rect key="frame" x="15.000000000000007" y="354.66666666666669" width="103.66666666666669" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="38E-nT-w83">
+                                <rect key="frame" x="0.0" y="63.666666666666657" width="414" height="52"/>
+                                <constraints>
                                     <constraint firstAttribute="height" constant="52" id="h7G-tP-wYa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="33"/>
                                 <color key="textColor" red="0.91986164647577096" green="0.67928126504926378" blue="0.17586803534134512" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.78437947910000005" green="0.39050289420000001" blue="0.46854729470000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="3" height="-2"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNx-F5-F7z">
+                                <rect key="frame" x="155" y="155.66666666666666" width="104" height="89.666666666666657"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMJ-FP-v5k">
+                                <rect key="frame" x="155" y="255.33333333333334" width="104" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-cG-9x8">
+                                <rect key="frame" x="295.33333333333331" y="155.66666666666666" width="103.66666666666669" height="89.666666666666657"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCB-ud-Tbt">
+                                <rect key="frame" x="155" y="653.66666666666663" width="104" height="89.666666666666629"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="vNX-k3-QSa" firstAttribute="centerX" secondItem="Z4C-BG-jt8" secondAttribute="centerX" id="0SP-oY-eZK"/>
+                            <constraint firstItem="fKf-DT-sb0" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="3Eh-oT-sOp"/>
+                            <constraint firstItem="aMJ-FP-v5k" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="6mA-qz-Pwj"/>
+                            <constraint firstItem="Z4C-BG-jt8" firstAttribute="top" secondItem="38E-nT-w83" secondAttribute="bottom" constant="40" id="7io-Rb-Orp"/>
+                            <constraint firstItem="aug-K0-hDX" firstAttribute="top" secondItem="NyW-cG-9x8" secondAttribute="bottom" constant="10" id="Ae4-6w-ekw"/>
+                            <constraint firstItem="HCB-ud-Tbt" firstAttribute="top" secondItem="trF-tf-nc6" secondAttribute="bottom" constant="10" id="AtY-13-zpC"/>
                             <constraint firstItem="38E-nT-w83" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BBx-5g-yah"/>
+                            <constraint firstItem="Z4C-BG-jt8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="Bwv-ZX-yI6"/>
+                            <constraint firstItem="Tf7-pf-WQF" firstAttribute="centerX" secondItem="NyW-cG-9x8" secondAttribute="centerX" id="ETs-Na-fcX"/>
+                            <constraint firstItem="vNX-k3-QSa" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="FEf-LV-YOa"/>
+                            <constraint firstItem="trF-tf-nc6" firstAttribute="centerX" secondItem="DNx-F5-F7z" secondAttribute="centerX" id="H4i-MX-UgO"/>
+                            <constraint firstItem="QH0-fK-RuZ" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="L0y-WE-g3T"/>
+                            <constraint firstItem="trF-tf-nc6" firstAttribute="top" secondItem="IG4-cq-XsW" secondAttribute="bottom" constant="10" id="M0b-jc-0RM"/>
+                            <constraint firstItem="fEo-ek-df6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="MKI-tA-kr0"/>
+                            <constraint firstItem="NyW-cG-9x8" firstAttribute="top" secondItem="38E-nT-w83" secondAttribute="bottom" constant="40" id="Mzc-oh-AuK"/>
+                            <constraint firstItem="aug-K0-hDX" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="QNk-D2-GWD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aug-K0-hDX" secondAttribute="trailing" constant="15" id="Qg8-rl-hXL"/>
+                            <constraint firstItem="UVs-Sj-mSF" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="RwI-cO-2sd"/>
+                            <constraint firstItem="aMJ-FP-v5k" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="TBR-lZ-BWo"/>
+                            <constraint firstItem="DNx-F5-F7z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TG7-ES-p8o"/>
+                            <constraint firstItem="IG4-cq-XsW" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="TSg-TL-asV"/>
+                            <constraint firstItem="QH0-fK-RuZ" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="UQM-l0-0n1"/>
+                            <constraint firstItem="aMJ-FP-v5k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UmN-uD-Lan"/>
+                            <constraint firstItem="UVs-Sj-mSF" firstAttribute="centerX" secondItem="NyW-cG-9x8" secondAttribute="centerX" id="Vgr-u4-QCO"/>
+                            <constraint firstItem="P7K-TP-tCf" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="WPY-Bo-FHd"/>
+                            <constraint firstItem="DNx-F5-F7z" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="XXi-UW-vSi"/>
+                            <constraint firstItem="unz-NB-KAU" firstAttribute="top" secondItem="vNX-k3-QSa" secondAttribute="bottom" constant="10" id="Xpj-Os-Zwu"/>
+                            <constraint firstItem="fEo-ek-df6" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="Xx5-YF-8em"/>
                             <constraint firstAttribute="bottom" secondItem="evf-XV-nkH" secondAttribute="bottom" id="YBk-bY-D8y"/>
-                            <constraint firstItem="evf-XV-nkH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="nCc-PH-cSz"/>
+                            <constraint firstItem="trF-tf-nc6" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="YN0-oM-Gi4"/>
+                            <constraint firstItem="fEo-ek-df6" firstAttribute="top" secondItem="fKf-DT-sb0" secondAttribute="bottom" constant="10" id="ZQv-1V-Bjb"/>
+                            <constraint firstItem="unz-NB-KAU" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="ZZd-NT-ngd"/>
+                            <constraint firstItem="HCB-ud-Tbt" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="Zcm-6V-CP3"/>
+                            <constraint firstItem="DNx-F5-F7z" firstAttribute="top" secondItem="38E-nT-w83" secondAttribute="bottom" constant="40" id="ZfS-cN-JDw"/>
+                            <constraint firstItem="unz-NB-KAU" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="Zx0-Bx-OMs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NyW-cG-9x8" secondAttribute="trailing" constant="15" id="aqW-5d-0fB"/>
+                            <constraint firstItem="IG4-cq-XsW" firstAttribute="centerX" secondItem="DNx-F5-F7z" secondAttribute="centerX" id="bUC-tr-kyd"/>
+                            <constraint firstItem="unz-NB-KAU" firstAttribute="centerX" secondItem="Z4C-BG-jt8" secondAttribute="centerX" id="bYs-eX-AgG"/>
+                            <constraint firstItem="UVs-Sj-mSF" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="dHP-XU-I5R"/>
+                            <constraint firstItem="Tf7-pf-WQF" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="deU-mt-ACj"/>
+                            <constraint firstItem="Z4C-BG-jt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="erS-nj-zeM"/>
+                            <constraint firstItem="UVs-Sj-mSF" firstAttribute="top" secondItem="P7K-TP-tCf" secondAttribute="bottom" constant="10" id="fbi-wG-r0t"/>
+                            <constraint firstItem="fEo-ek-df6" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="h76-zg-h1i"/>
+                            <constraint firstItem="QH0-fK-RuZ" firstAttribute="top" secondItem="aMJ-FP-v5k" secondAttribute="bottom" constant="10" id="iD4-Hk-wN6"/>
+                            <constraint firstItem="P7K-TP-tCf" firstAttribute="centerX" secondItem="NyW-cG-9x8" secondAttribute="centerX" id="iXr-dS-qQM"/>
+                            <constraint firstItem="Tf7-pf-WQF" firstAttribute="top" secondItem="aug-K0-hDX" secondAttribute="bottom" constant="10" id="idR-13-0sC"/>
+                            <constraint firstItem="fKf-DT-sb0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="kqq-DZ-8At"/>
+                            <constraint firstItem="38E-nT-w83" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lrm-pX-hB6"/>
+                            <constraint firstItem="evf-XV-nkH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-60" id="nCc-PH-cSz"/>
+                            <constraint firstItem="Z4C-BG-jt8" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="nQD-DU-XoR"/>
+                            <constraint firstItem="fKf-DT-sb0" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="ntM-ZM-qM1"/>
+                            <constraint firstItem="fKf-DT-sb0" firstAttribute="centerX" secondItem="Z4C-BG-jt8" secondAttribute="centerX" id="ofq-lE-Pdw"/>
+                            <constraint firstItem="HCB-ud-Tbt" firstAttribute="centerX" secondItem="DNx-F5-F7z" secondAttribute="centerX" id="opL-8J-Jsb"/>
+                            <constraint firstItem="fKf-DT-sb0" firstAttribute="top" secondItem="Z4C-BG-jt8" secondAttribute="bottom" constant="10" id="p1M-Eu-THO"/>
+                            <constraint firstItem="P7K-TP-tCf" firstAttribute="top" secondItem="Tf7-pf-WQF" secondAttribute="bottom" constant="10" id="pLl-lN-cwP"/>
+                            <constraint firstItem="DNx-F5-F7z" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="poy-bw-qAN"/>
                             <constraint firstItem="evf-XV-nkH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="q4y-cj-cse"/>
+                            <constraint firstItem="IG4-cq-XsW" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="rBs-6e-ufK"/>
+                            <constraint firstItem="aug-K0-hDX" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="rJB-hT-48X"/>
+                            <constraint firstItem="NyW-cG-9x8" firstAttribute="width" secondItem="DNx-F5-F7z" secondAttribute="width" id="rO2-Wq-wNp"/>
+                            <constraint firstItem="P7K-TP-tCf" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="rqe-sP-VVV"/>
+                            <constraint firstItem="vNX-k3-QSa" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="sls-YK-iko"/>
                             <constraint firstItem="38E-nT-w83" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.2" id="tXE-Hu-BhO"/>
+                            <constraint firstItem="vNX-k3-QSa" firstAttribute="top" secondItem="fEo-ek-df6" secondAttribute="bottom" constant="10" id="ugB-TG-eU2"/>
+                            <constraint firstItem="NyW-cG-9x8" firstAttribute="height" secondItem="DNx-F5-F7z" secondAttribute="height" id="vcd-Gt-DTT"/>
+                            <constraint firstItem="Tf7-pf-WQF" firstAttribute="height" secondItem="Z4C-BG-jt8" secondAttribute="height" id="vla-Mh-epX"/>
+                            <constraint firstItem="aMJ-FP-v5k" firstAttribute="top" secondItem="DNx-F5-F7z" secondAttribute="bottom" constant="10" id="wcp-WL-vnT"/>
+                            <constraint firstItem="trF-tf-nc6" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="xhW-oP-7SK"/>
                             <constraint firstAttribute="trailing" secondItem="evf-XV-nkH" secondAttribute="trailing" id="y53-49-9Hm"/>
+                            <constraint firstItem="HCB-ud-Tbt" firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="width" id="y5p-R5-whN"/>
+                            <constraint firstItem="QH0-fK-RuZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ybh-VG-xn0"/>
+                            <constraint firstItem="IG4-cq-XsW" firstAttribute="top" secondItem="QH0-fK-RuZ" secondAttribute="bottom" constant="10" id="zRh-de-JtM"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97.887323943661983" y="-2.2900763358778624"/>
+            <point key="canvasLocation" x="139" y="21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yrd-uY-yNi">
+            <objects>
+                <viewController id="d3t-Oi-jrY" customClass="ViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0Y-Ig-a91">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fond.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d5S-PT-D1Z">
+                                <rect key="frame" x="0.0" y="-16" width="414" height="270"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWE-Q6-RAH">
+                                <rect key="frame" x="369.66666666666669" y="233" width="29.333333333333314" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUj-p3-yHn">
+                                <rect key="frame" x="192.33333333333334" y="233" width="29.333333333333343" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1z-pA-57e">
+                                <rect key="frame" x="14.999999999999998" y="233" width="29.333333333333329" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0S-N1-Uc1">
+                                <rect key="frame" x="14.999999999999998" y="197.66666666666669" width="29.333333333333329" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pl5-2P-j4R">
+                                <rect key="frame" x="369.66666666666669" y="197.66666666666669" width="29.333333333333314" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGe-AX-x6n">
+                                <rect key="frame" x="192.33333333333334" y="197.66666666666669" width="29.333333333333343" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5If-7g-oqb">
+                                <rect key="frame" x="369.66666666666669" y="162.33333333333334" width="29.333333333333314" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vja-9M-fmK">
+                                <rect key="frame" x="192.33333333333334" y="162.33333333333334" width="29.333333333333343" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DL7-M2-Zt5">
+                                <rect key="frame" x="14.999999999999998" y="91.333333333333329" width="29.333333333333329" height="25.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="height" multiplier="103:89" id="v0q-fZ-i4e"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHl-gN-myl">
+                                <rect key="frame" x="14.999999999999998" y="126.66666666666666" width="29.333333333333329" height="25.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCP-wT-JnS">
+                                <rect key="frame" x="369.66666666666669" y="126.66666666666666" width="29.333333333333314" height="25.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6M-no-dzB">
+                                <rect key="frame" x="14.999999999999998" y="162.33333333333334" width="29.333333333333329" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KD3-qQ-kVf">
+                                <rect key="frame" x="0.0" y="-0.6666666666666714" width="414" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="E8A-tv-QSR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="33"/>
+                                <color key="textColor" red="0.91986164650000002" green="0.67928126499999997" blue="0.1758680353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.78437947910000005" green="0.39050289420000001" blue="0.46854729470000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="3" height="-2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLL-Yi-iw4">
+                                <rect key="frame" x="192.33333333333334" y="91.333333333333329" width="29.333333333333343" height="25.333333333333329"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm3-af-v9u">
+                                <rect key="frame" x="192.33333333333334" y="126.66666666666666" width="29.333333333333343" height="25.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lK7-yQ-uOH">
+                                <rect key="frame" x="369.66666666666669" y="91.333333333333329" width="29.333333333333314" height="25.333333333333329"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P37-Sd-WKF">
+                                <rect key="frame" x="192.33333333333334" y="268.33333333333331" width="29.333333333333343" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4mL-Zh-ZQl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SUj-p3-yHn" firstAttribute="top" secondItem="SGe-AX-x6n" secondAttribute="bottom" constant="10" id="04y-Wg-giY"/>
+                            <constraint firstItem="4mL-Zh-ZQl" firstAttribute="trailing" secondItem="NCP-wT-JnS" secondAttribute="trailing" constant="15" id="0qT-WA-qne"/>
+                            <constraint firstItem="5If-7g-oqb" firstAttribute="centerX" secondItem="lK7-yQ-uOH" secondAttribute="centerX" id="0rF-Fz-dEu"/>
+                            <constraint firstItem="vja-9M-fmK" firstAttribute="centerX" secondItem="v0Y-Ig-a91" secondAttribute="centerX" id="2g4-70-GGm"/>
+                            <constraint firstItem="KD3-qQ-kVf" firstAttribute="centerY" secondItem="v0Y-Ig-a91" secondAttribute="centerY" multiplier="0.2" id="3OG-iD-PEN"/>
+                            <constraint firstItem="bm3-af-v9u" firstAttribute="centerX" secondItem="v0Y-Ig-a91" secondAttribute="centerX" id="4tt-Pz-Aqq"/>
+                            <constraint firstItem="SGe-AX-x6n" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="5GR-3L-rSo"/>
+                            <constraint firstItem="5If-7g-oqb" firstAttribute="top" secondItem="NCP-wT-JnS" secondAttribute="bottom" constant="10" id="5Py-mf-WZ3"/>
+                            <constraint firstItem="SUj-p3-yHn" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="5QQ-HR-7OH"/>
+                            <constraint firstItem="KD3-qQ-kVf" firstAttribute="width" secondItem="v0Y-Ig-a91" secondAttribute="width" id="5cI-SL-00k"/>
+                            <constraint firstItem="NCP-wT-JnS" firstAttribute="top" secondItem="lK7-yQ-uOH" secondAttribute="bottom" constant="10" id="65a-7u-MZ9"/>
+                            <constraint firstItem="aHl-gN-myl" firstAttribute="top" secondItem="DL7-M2-Zt5" secondAttribute="bottom" constant="10" id="6OH-oI-dS2"/>
+                            <constraint firstItem="aHl-gN-myl" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="6Zg-uw-Jiz"/>
+                            <constraint firstItem="P37-Sd-WKF" firstAttribute="centerX" secondItem="wLL-Yi-iw4" secondAttribute="centerX" id="6vA-0d-NzN"/>
+                            <constraint firstItem="5If-7g-oqb" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="7i9-9j-fjP"/>
+                            <constraint firstItem="yWE-Q6-RAH" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="EKn-6M-aeQ"/>
+                            <constraint firstAttribute="bottom" secondItem="d5S-PT-D1Z" secondAttribute="bottom" id="EW3-bo-xWn"/>
+                            <constraint firstItem="Y1z-pA-57e" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="GOi-bB-VMS"/>
+                            <constraint firstItem="P37-Sd-WKF" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="GVa-gr-KAI"/>
+                            <constraint firstItem="aHl-gN-myl" firstAttribute="leading" secondItem="4mL-Zh-ZQl" secondAttribute="leading" constant="15" id="GWz-aL-DMJ"/>
+                            <constraint firstItem="DL7-M2-Zt5" firstAttribute="top" secondItem="KD3-qQ-kVf" secondAttribute="bottom" constant="40" id="Gdf-A3-EPn"/>
+                            <constraint firstItem="SUj-p3-yHn" firstAttribute="centerX" secondItem="wLL-Yi-iw4" secondAttribute="centerX" id="Gwd-IS-xIe"/>
+                            <constraint firstItem="lK7-yQ-uOH" firstAttribute="width" secondItem="wLL-Yi-iw4" secondAttribute="width" id="Gx4-9O-6vi"/>
+                            <constraint firstItem="aHl-gN-myl" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Hoj-ww-Wow"/>
+                            <constraint firstItem="F6M-no-dzB" firstAttribute="leading" secondItem="4mL-Zh-ZQl" secondAttribute="leading" constant="15" id="KMH-ON-iGD"/>
+                            <constraint firstItem="F6M-no-dzB" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="Kiu-9Z-9Dj"/>
+                            <constraint firstItem="D0S-N1-Uc1" firstAttribute="top" secondItem="F6M-no-dzB" secondAttribute="bottom" constant="10" id="Kmc-ti-ugd"/>
+                            <constraint firstItem="wLL-Yi-iw4" firstAttribute="centerX" secondItem="v0Y-Ig-a91" secondAttribute="centerX" id="LD1-mR-eKi"/>
+                            <constraint firstItem="wLL-Yi-iw4" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="LtS-jM-MAp"/>
+                            <constraint firstItem="Y1z-pA-57e" firstAttribute="centerX" secondItem="DL7-M2-Zt5" secondAttribute="centerX" id="MKb-hs-Pie"/>
+                            <constraint firstItem="KD3-qQ-kVf" firstAttribute="centerX" secondItem="v0Y-Ig-a91" secondAttribute="centerX" id="MT9-5P-sd8"/>
+                            <constraint firstItem="vja-9M-fmK" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="NwL-3L-1dI"/>
+                            <constraint firstItem="DL7-M2-Zt5" firstAttribute="width" secondItem="v0Y-Ig-a91" secondAttribute="width" multiplier="0.25" id="OcU-Vm-tUP"/>
+                            <constraint firstItem="lK7-yQ-uOH" firstAttribute="top" secondItem="KD3-qQ-kVf" secondAttribute="bottom" constant="40" id="RSd-Wm-d4r"/>
+                            <constraint firstItem="bm3-af-v9u" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="RUs-9W-Ysl"/>
+                            <constraint firstItem="F6M-no-dzB" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Rjs-rH-uW0"/>
+                            <constraint firstItem="Y1z-pA-57e" firstAttribute="top" secondItem="D0S-N1-Uc1" secondAttribute="bottom" constant="10" id="SY0-iw-0iL"/>
+                            <constraint firstItem="NCP-wT-JnS" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Szj-hj-DQ9"/>
+                            <constraint firstItem="wLL-Yi-iw4" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Us3-8h-06U"/>
+                            <constraint firstItem="aHl-gN-myl" firstAttribute="centerX" secondItem="DL7-M2-Zt5" secondAttribute="centerX" id="V07-Wo-Ktn"/>
+                            <constraint firstItem="bm3-af-v9u" firstAttribute="top" secondItem="wLL-Yi-iw4" secondAttribute="bottom" constant="10" id="XJ6-Mr-tYj"/>
+                            <constraint firstItem="F6M-no-dzB" firstAttribute="top" secondItem="aHl-gN-myl" secondAttribute="bottom" constant="10" id="Xe5-wU-45D"/>
+                            <constraint firstItem="P37-Sd-WKF" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Yaw-y5-jDl"/>
+                            <constraint firstItem="bm3-af-v9u" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="Yi1-pe-EjJ"/>
+                            <constraint firstItem="5If-7g-oqb" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="agQ-4C-Wp7"/>
+                            <constraint firstItem="SUj-p3-yHn" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="bP6-09-Y3E"/>
+                            <constraint firstItem="SGe-AX-x6n" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="bzL-gD-aJ3"/>
+                            <constraint firstItem="yWE-Q6-RAH" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="cHn-N3-hU0"/>
+                            <constraint firstItem="pl5-2P-j4R" firstAttribute="top" secondItem="5If-7g-oqb" secondAttribute="bottom" constant="10" id="eON-6s-08o"/>
+                            <constraint firstItem="SGe-AX-x6n" firstAttribute="centerX" secondItem="wLL-Yi-iw4" secondAttribute="centerX" id="eaj-ST-cSP"/>
+                            <constraint firstItem="vja-9M-fmK" firstAttribute="top" secondItem="bm3-af-v9u" secondAttribute="bottom" constant="10" id="fGD-sy-obX"/>
+                            <constraint firstItem="wLL-Yi-iw4" firstAttribute="top" secondItem="KD3-qQ-kVf" secondAttribute="bottom" constant="40" id="fL0-j1-Yyp"/>
+                            <constraint firstItem="NCP-wT-JnS" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="hmz-CZ-bU4"/>
+                            <constraint firstItem="P37-Sd-WKF" firstAttribute="top" secondItem="SUj-p3-yHn" secondAttribute="bottom" constant="10" id="i1g-fc-Hs0"/>
+                            <constraint firstItem="D0S-N1-Uc1" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="ia2-Ay-c3j"/>
+                            <constraint firstItem="D0S-N1-Uc1" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="j01-f5-T8m"/>
+                            <constraint firstItem="yWE-Q6-RAH" firstAttribute="centerX" secondItem="lK7-yQ-uOH" secondAttribute="centerX" id="kXy-ME-TIb"/>
+                            <constraint firstItem="d5S-PT-D1Z" firstAttribute="leading" secondItem="v0Y-Ig-a91" secondAttribute="leading" id="mDE-jD-Ljw"/>
+                            <constraint firstItem="SGe-AX-x6n" firstAttribute="top" secondItem="vja-9M-fmK" secondAttribute="bottom" constant="10" id="nuP-HX-42b"/>
+                            <constraint firstItem="D0S-N1-Uc1" firstAttribute="centerX" secondItem="DL7-M2-Zt5" secondAttribute="centerX" id="pGI-vt-avI"/>
+                            <constraint firstAttribute="trailing" secondItem="d5S-PT-D1Z" secondAttribute="trailing" id="qIS-9w-Paj"/>
+                            <constraint firstItem="4mL-Zh-ZQl" firstAttribute="trailing" secondItem="lK7-yQ-uOH" secondAttribute="trailing" constant="15" id="qot-hB-FbY"/>
+                            <constraint firstItem="Y1z-pA-57e" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="qq2-3R-cSJ"/>
+                            <constraint firstItem="d5S-PT-D1Z" firstAttribute="top" secondItem="4mL-Zh-ZQl" secondAttribute="top" constant="-60" id="rrj-BC-x3X"/>
+                            <constraint firstItem="lK7-yQ-uOH" firstAttribute="height" secondItem="wLL-Yi-iw4" secondAttribute="height" id="uns-eg-bet"/>
+                            <constraint firstItem="pl5-2P-j4R" firstAttribute="centerX" secondItem="lK7-yQ-uOH" secondAttribute="centerX" id="vxN-YI-gHJ"/>
+                            <constraint firstItem="vja-9M-fmK" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="w9Y-ih-Hud"/>
+                            <constraint firstItem="pl5-2P-j4R" firstAttribute="width" secondItem="DL7-M2-Zt5" secondAttribute="width" id="xQf-BT-Ffk"/>
+                            <constraint firstItem="DL7-M2-Zt5" firstAttribute="leading" secondItem="4mL-Zh-ZQl" secondAttribute="leading" constant="15" id="xUf-Dt-W9s"/>
+                            <constraint firstItem="yWE-Q6-RAH" firstAttribute="top" secondItem="pl5-2P-j4R" secondAttribute="bottom" constant="10" id="yST-20-mtJ"/>
+                            <constraint firstItem="DL7-M2-Zt5" firstAttribute="height" secondItem="v0Y-Ig-a91" secondAttribute="height" multiplier="0.1" id="zJu-Jq-Sx1"/>
+                            <constraint firstItem="pl5-2P-j4R" firstAttribute="height" secondItem="DL7-M2-Zt5" secondAttribute="height" id="zRU-iV-r7b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wEO-q0-4Kf" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809" y="27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jaD-ts-dgO">
+            <objects>
+                <viewController id="R2e-uz-AQc" customClass="ViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F69-GT-dne">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fond.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qGN-Xt-xQF">
+                                <rect key="frame" x="0.0" y="-16" width="414" height="270"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5c-3h-e6d">
+                                <rect key="frame" x="369.66666666666669" y="233" width="29.333333333333314" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMO-vS-Dn1">
+                                <rect key="frame" x="192.33333333333334" y="233" width="29.333333333333343" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCN-ME-y9x">
+                                <rect key="frame" x="14.999999999999998" y="233" width="29.333333333333329" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf0-MU-moe">
+                                <rect key="frame" x="14.999999999999998" y="197.66666666666666" width="29.333333333333329" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnd-FX-Ccv">
+                                <rect key="frame" x="369.66666666666669" y="197.66666666666666" width="29.333333333333314" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywU-76-wza">
+                                <rect key="frame" x="192.33333333333334" y="197.66666666666666" width="29.333333333333343" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzW-sZ-ipu">
+                                <rect key="frame" x="369.66666666666669" y="162.33333333333334" width="29.333333333333314" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0Z-EP-EDz">
+                                <rect key="frame" x="192.33333333333334" y="162.33333333333334" width="29.333333333333343" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zJ-Ez-L2s">
+                                <rect key="frame" x="14.999999999999998" y="91.333333333333329" width="29.333333333333329" height="25.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="height" multiplier="103:89" id="6Iy-FA-Je5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-l5-ABp">
+                                <rect key="frame" x="14.999999999999998" y="126.66666666666667" width="29.333333333333329" height="25.666666666666671"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-h4-QZX">
+                                <rect key="frame" x="369.66666666666669" y="126.66666666666667" width="29.333333333333314" height="25.666666666666671"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULx-cc-Tgo">
+                                <rect key="frame" x="14.999999999999998" y="162.33333333333334" width="29.333333333333329" height="25.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RYi-g7-mBf">
+                                <rect key="frame" x="0.0" y="-0.66666666666666785" width="414" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="XGm-iO-8Hx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="33"/>
+                                <color key="textColor" red="0.91986164650000002" green="0.67928126499999997" blue="0.1758680353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.78437947910000005" green="0.39050289420000001" blue="0.46854729470000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="3" height="-2"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3q-2Z-Aeh">
+                                <rect key="frame" x="192.33333333333334" y="91.333333333333329" width="29.333333333333343" height="25.333333333333329"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPX-NB-ILA">
+                                <rect key="frame" x="192.33333333333334" y="126.66666666666667" width="29.333333333333343" height="25.666666666666671"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTg-1z-9tM">
+                                <rect key="frame" x="369.66666666666669" y="91.333333333333329" width="29.333333333333314" height="25.333333333333329"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbN-1E-SvG">
+                                <rect key="frame" x="192.33333333333334" y="268.33333333333331" width="29.333333333333343" height="25.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Az8-BI-e8Q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ywU-76-wza" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="0IO-RH-QaL"/>
+                            <constraint firstItem="UTg-1z-9tM" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="0Qm-gi-mLf"/>
+                            <constraint firstItem="UTg-1z-9tM" firstAttribute="width" secondItem="e3q-2Z-Aeh" secondAttribute="width" id="0hM-oL-QpP"/>
+                            <constraint firstItem="KrO-l5-ABp" firstAttribute="top" secondItem="0zJ-Ez-L2s" secondAttribute="bottom" constant="10" id="0p0-nN-tve"/>
+                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="top" secondItem="ywU-76-wza" secondAttribute="bottom" constant="10" id="1Zy-aC-O4v"/>
+                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="36X-ep-UK6"/>
+                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="top" secondItem="KrO-l5-ABp" secondAttribute="bottom" constant="10" id="6av-6e-Xgz"/>
+                            <constraint firstItem="sbN-1E-SvG" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="7EV-dS-dHo"/>
+                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="7T4-se-x8I"/>
+                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="7vI-Mw-fCi"/>
+                            <constraint firstItem="Tf0-MU-moe" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="8Eg-Gs-0na"/>
+                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="8j7-0W-RkB"/>
+                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="top" secondItem="dzW-sZ-ipu" secondAttribute="bottom" constant="10" id="8vI-7E-PSh"/>
+                            <constraint firstItem="qGN-Xt-xQF" firstAttribute="leading" secondItem="F69-GT-dne" secondAttribute="leading" id="9OF-AS-fJJ"/>
+                            <constraint firstItem="KrO-l5-ABp" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="9fe-gE-3ZO"/>
+                            <constraint firstItem="n5c-3h-e6d" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="AQy-MI-lrS"/>
+                            <constraint firstItem="Tf0-MU-moe" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="Aco-ak-Qu5"/>
+                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="C6v-fg-nt7"/>
+                            <constraint firstItem="sbN-1E-SvG" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="Ciz-OU-A8k"/>
+                            <constraint firstItem="qGN-Xt-xQF" firstAttribute="top" secondItem="Az8-BI-e8Q" secondAttribute="top" constant="-60" id="EqO-5O-XyS"/>
+                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="GWt-oi-EEQ"/>
+                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="top" secondItem="uN0-h4-QZX" secondAttribute="bottom" constant="10" id="Go2-iZ-Z5s"/>
+                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="HC3-84-qDu"/>
+                            <constraint firstItem="ywU-76-wza" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="JDt-L0-QgZ"/>
+                            <constraint firstItem="KrO-l5-ABp" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="JiX-bN-XaH"/>
+                            <constraint firstItem="n5c-3h-e6d" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="JmO-pY-Fg1"/>
+                            <constraint firstAttribute="trailing" secondItem="qGN-Xt-xQF" secondAttribute="trailing" id="KbM-xF-SZP"/>
+                            <constraint firstItem="uN0-h4-QZX" firstAttribute="top" secondItem="UTg-1z-9tM" secondAttribute="bottom" constant="10" id="KdT-ju-LZg"/>
+                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="LGj-YQ-nKS"/>
+                            <constraint firstItem="gCN-ME-y9x" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="LtV-Ca-YuC"/>
+                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="M1e-6e-ODS"/>
+                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="top" secondItem="QPX-NB-ILA" secondAttribute="bottom" constant="10" id="MjL-tt-aZt"/>
+                            <constraint firstItem="RYi-g7-mBf" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="MqT-CC-mZa"/>
+                            <constraint firstItem="ywU-76-wza" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="N4o-uD-oza"/>
+                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="NKs-tN-hXR"/>
+                            <constraint firstItem="gCN-ME-y9x" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="Szz-UX-lhx"/>
+                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="TYx-SQ-qLE"/>
+                            <constraint firstItem="KrO-l5-ABp" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="U4S-gB-f6p"/>
+                            <constraint firstItem="Tf0-MU-moe" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="VAx-a4-7GE"/>
+                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Y4f-5q-trm"/>
+                            <constraint firstItem="uN0-h4-QZX" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Yf7-JX-kqn"/>
+                            <constraint firstItem="KrO-l5-ABp" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Yx5-hQ-xp1"/>
+                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="aXr-9W-iBO"/>
+                            <constraint firstItem="gCN-ME-y9x" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="azM-yj-BMU"/>
+                            <constraint firstItem="Az8-BI-e8Q" firstAttribute="trailing" secondItem="UTg-1z-9tM" secondAttribute="trailing" constant="15" id="bKg-v8-UMv"/>
+                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="bTI-XK-V7l"/>
+                            <constraint firstItem="sbN-1E-SvG" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="cBP-uO-OSp"/>
+                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="width" secondItem="F69-GT-dne" secondAttribute="width" multiplier="0.25" id="ctg-gE-ajN"/>
+                            <constraint firstItem="RYi-g7-mBf" firstAttribute="width" secondItem="F69-GT-dne" secondAttribute="width" id="dze-Py-gKW"/>
+                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="eVg-zv-MoL"/>
+                            <constraint firstItem="Az8-BI-e8Q" firstAttribute="trailing" secondItem="uN0-h4-QZX" secondAttribute="trailing" constant="15" id="ftp-hB-JxJ"/>
+                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="ga3-Hx-T9z"/>
+                            <constraint firstItem="QPX-NB-ILA" firstAttribute="top" secondItem="e3q-2Z-Aeh" secondAttribute="bottom" constant="10" id="gby-ZT-Xg5"/>
+                            <constraint firstItem="uN0-h4-QZX" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="hcb-0x-ef4"/>
+                            <constraint firstItem="UTg-1z-9tM" firstAttribute="height" secondItem="e3q-2Z-Aeh" secondAttribute="height" id="i6t-bA-X6b"/>
+                            <constraint firstItem="Tf0-MU-moe" firstAttribute="top" secondItem="ULx-cc-Tgo" secondAttribute="bottom" constant="10" id="iRr-jj-zZ2"/>
+                            <constraint firstItem="gCN-ME-y9x" firstAttribute="top" secondItem="Tf0-MU-moe" secondAttribute="bottom" constant="10" id="ihP-CK-KNK"/>
+                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="ja4-0y-5wX"/>
+                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="jzh-H4-E9r"/>
+                            <constraint firstItem="ywU-76-wza" firstAttribute="top" secondItem="V0Z-EP-EDz" secondAttribute="bottom" constant="10" id="p65-sO-VCF"/>
+                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="pUc-aN-Qy6"/>
+                            <constraint firstItem="QPX-NB-ILA" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="qbg-JY-igV"/>
+                            <constraint firstItem="n5c-3h-e6d" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="rel-Th-Cvb"/>
+                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="rse-gm-5Eu"/>
+                            <constraint firstItem="QPX-NB-ILA" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="sIa-wP-Vs5"/>
+                            <constraint firstAttribute="bottom" secondItem="qGN-Xt-xQF" secondAttribute="bottom" id="szc-c6-i6I"/>
+                            <constraint firstItem="QPX-NB-ILA" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="tzj-Qu-bvm"/>
+                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="height" secondItem="F69-GT-dne" secondAttribute="height" multiplier="0.1" id="uTh-um-aAK"/>
+                            <constraint firstItem="n5c-3h-e6d" firstAttribute="top" secondItem="Pnd-FX-Ccv" secondAttribute="bottom" constant="10" id="vhp-IJ-HUZ"/>
+                            <constraint firstItem="sbN-1E-SvG" firstAttribute="top" secondItem="fMO-vS-Dn1" secondAttribute="bottom" constant="10" id="ySX-Gq-x0t"/>
+                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="yaE-90-IiY"/>
+                            <constraint firstItem="RYi-g7-mBf" firstAttribute="centerY" secondItem="F69-GT-dne" secondAttribute="centerY" multiplier="0.2" id="zRe-Gh-fDJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q07-nv-pqR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="37"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="Qfb-1F-N12">
+            <objects>
+                <viewController id="6U5-pK-vwY" customClass="SplashViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mqC-RF-dMk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Deal_or_No_Deal_Logo_2024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fS3-ti-dHN">
+                                <rect key="frame" x="14" y="215" width="386.00000000000011" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="sgSplash"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y7U-ZW-cKq"/>
+                        <color key="backgroundColor" red="0.96841138599999999" green="0.79320232769999999" blue="0.2594717621" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <connections>
+                        <outlet property="imvSplash" destination="fS3-ti-dHN" id="zzG-Ld-d6g"/>
+                        <segue destination="RuG-4V-yX1" kind="presentation" identifier="Menu" modalPresentationStyle="fullScreen" id="E7v-Bj-aKX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVL-3U-hh1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1478" y="37"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="4Mf-8Z-hMv">
+            <objects>
+                <viewController id="RuG-4V-yX1" customClass="MenuViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wN0-MV-BfQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="E7Q-lO-dir"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Frt-Nj-kV6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-688" y="37"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Deal_or_No_Deal_Logo_2024.jpg" width="400" height="400"/>
         <image name="fond.jpg" width="480" height="270"/>
         <image name="maletin.jpg" width="385" height="280"/>
         <systemColor name="systemBackgroundColor">
