@@ -10,11 +10,13 @@ import UIKit
 class MaletinesViewController: UIViewController {
     
     
+    @IBOutlet weak var lblTitulo: UILabel!
     @IBOutlet var btnMaletines: [UIButton]!
     var cantidadesMaletines = [1,5,10,25,50,100,300,500,1000,5000,10000,25000,50000,100000,300000,500000]
     var indiceCantidades = [Int]()
     var maletinUsuario: (posicion: Int, cantidad: Int)?
     var cantidadLlevada:Int = 0
+    var cantidadeselegidas = [Int]()
     var contadorClicks = 1
     var cantidadIndex:Int = 0
     
@@ -45,10 +47,14 @@ class MaletinesViewController: UIViewController {
         if contadorClicks == 1 {
             maletinUsuario = (posicion: tag, cantidad: cantidadIndex)
             contadorClicks += 1
+            lblTitulo.text = "Play Game"
         }
         else if contadorClicks < 6 && contadorClicks > 1 {
             print(cantidadIndex)
                    cantidadLlevada += cantidadIndex
+            cantidadeselegidas.append(cantidadIndex)
+            print(cantidadeselegidas)
+            
             
             self.performSegue(withIdentifier: "MuestraDinero", sender: cantidadIndex)
             

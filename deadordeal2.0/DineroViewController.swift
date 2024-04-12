@@ -11,6 +11,7 @@ class DineroViewController: UIViewController {
     @IBOutlet var btnDiner: [UILabel]!
     var Dinero: String?
     var dineroLabel: UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,40 +23,33 @@ class DineroViewController: UIViewController {
             return
         }
         
-        // Buscar la etiqueta con el tag correspondiente
-        guard let dineroLabel = btnDiner.first(where: { $0.tag == dineroTag }) else {
-            return
-        }
-        
-        let originalCenter = dineroLabel.center
-        
-        dineroLabel.alpha = 5.0
-        dineroLabel.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        dineroLabel = btnDiner.first(where: { $0.tag == dineroTag })
+               
+               dineroLabel?.alpha = 1.0
+               dineroLabel?.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        guard let dineroLabel = dineroLabel else {
-            return
-        }
-        
-        UIView.animate(withDuration: 4.5,
-                       delay: 0,
-                       usingSpringWithDamping: 0.6,
-                       initialSpringVelocity: 0.8,
-                       options: .curveEaseInOut,
-                       animations: {
-            // Mover el label hacia arriba
-            dineroLabel.center.y -= self.view.frame.height / 2
-            // Restaurar la transparencia del label a 1.0
-            dineroLabel.alpha = 1.0
-            // Restaurar el tamaño original del label
-            dineroLabel.transform = CGAffineTransform.identity
-        },
-                       completion: { finished in
-            if finished {
-                self.performSegue(withIdentifier: "Vuelve", sender: nil)
-            }
-        })
-    }}
+           super.viewDidAppear(animated)
+           
+           guard let dineroLabel = dineroLabel else {
+               return
+           }
+           
+           UIView.animate(withDuration: 3.5,
+                          delay: 0.5,
+                          usingSpringWithDamping: 0.6,
+                          initialSpringVelocity: 0.8,
+                          options: .curveEaseInOut,
+                          animations: {
+               dineroLabel.center.y -= self.view.frame.height / 2
+               dineroLabel.alpha = 0.0
+               dineroLabel.transform = CGAffineTransform.identity
+           },
+                          completion: { finished in
+               if finished {
+                  
+               }
+           })
+       }
+   }
