@@ -46,6 +46,7 @@ class MaletinesViewController: UIViewController {
             contadorClicks += 1
         }
         else if contadorClicks < 6 && contadorClicks > 1 {
+            print(cantidadIndex)
                    cantidadLlevada += cantidadIndex
             self.performSegue(withIdentifier: "MuestraDinero", sender: nil)
             
