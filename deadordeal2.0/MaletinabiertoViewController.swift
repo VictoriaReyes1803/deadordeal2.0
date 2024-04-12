@@ -10,14 +10,16 @@ import UIKit
 class MaletinabiertoViewController: UIViewController {
     @IBOutlet weak var lblCantidad: UILabel!
     
-    var cantidadMostrada = " "
-       
-       override func viewDidLoad() {
-           super.viewDidLoad()
-           
-          
-       }
-       
-    
+    var cantidadMostrada: String?
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            if let cantidad = cantidadMostrada {
+                       lblCantidad.text = "$" + cantidad
+                self.performSegue(withIdentifier: "Quitadinero", sender: cantidad)
+                   } else {
+                       lblCantidad.text = "Cantidad no disponible"
+                   }
+        }
 
 }
