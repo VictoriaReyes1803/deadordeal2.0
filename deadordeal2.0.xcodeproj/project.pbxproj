@@ -23,6 +23,8 @@
 		88CFCB972BA3986B00537697 /* maletin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88CFCB962BA3986B00537697 /* maletin.jpg */; };
 		88CFCB992BA3987100537697 /* fond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88CFCB982BA3987100537697 /* fond.jpg */; };
 		88CFCB9B2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88CFCB9A2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg */; };
+		E8E011522BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8E011512BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg */; };
+		E8E011552BC9AE8A00AE8700 /* Banker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E011542BC9AE8A00AE8700 /* Banker.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		88CFCB962BA3986B00537697 /* maletin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maletin.jpg; path = ../../../dealordead/dealordead/imagess/maletin.jpg; sourceTree = "<group>"; };
 		88CFCB982BA3987100537697 /* fond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fond.jpg; path = ../../../dealordead/dealordead/imagess/fond.jpg; sourceTree = "<group>"; };
 		88CFCB9A2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Deal_or_No_Deal_Logo_2024.jpg; path = ../../../dealordead/dealordead/imagess/Deal_or_No_Deal_Logo_2024.jpg; sourceTree = "<group>"; };
+		E8E011512BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrQJpS5WoAIP0rP.jpeg; sourceTree = "<group>"; };
+		E8E011542BC9AE8A00AE8700 /* Banker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banker.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 				884F3A622BC8435D00D7867F /* MenuViewController.swift */,
 				884F3A5E2BC8412900D7867F /* SplashViewController.swift */,
 				88CFCB8A2BA3965900537697 /* Assets.xcassets */,
+				E8E011512BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg */,
 				88CFCB8C2BA3965900537697 /* LaunchScreen.storyboard */,
+				E8E011542BC9AE8A00AE8700 /* Banker.storyboard */,
 				88CFCB8F2BA3965900537697 /* Info.plist */,
 			);
 			path = deadordeal2.0;
@@ -170,6 +176,8 @@
 				88CFCB8B2BA3965900537697 /* Assets.xcassets in Resources */,
 				88CFCB9B2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg in Resources */,
 				88CFCB892BA3965800537697 /* Main.storyboard in Resources */,
+				E8E011552BC9AE8A00AE8700 /* Banker.storyboard in Resources */,
+				E8E011522BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg in Resources */,
 				884F3A652BC84CB600D7867F /* letsstar.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
