@@ -32,12 +32,12 @@ class MaletinesViewController: UIViewController {
         else {
             return
         }
-       
+       print(index)
         let tag = sender.tag
         print (tag)
         
         let cantidadIndex = indiceCantidades[tag]
-        print(cantidadIndex)
+        print("Maletin",cantidadIndex)
         print("Tag del botón clickeado: \(tag)")
         
      
@@ -48,11 +48,12 @@ class MaletinesViewController: UIViewController {
         else if contadorClicks < 6 && contadorClicks > 1 {
             print(cantidadIndex)
                    cantidadLlevada += cantidadIndex
-            self.performSegue(withIdentifier: "MuestraDinero", sender: nil)
+            
+            self.performSegue(withIdentifier: "MuestraDinero", sender: cantidadIndex)
             
                }
         else {
-            
+            self.performSegue(withIdentifier: "dealornodeal", sender: nil)
         }
                sender.isHidden = true
         
@@ -64,5 +65,15 @@ class MaletinesViewController: UIViewController {
                print("cantidad llevada",cantidadLlevada)
             
            }
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MuestraDinero" {
+             let cant = segue.destination as! MaletinabiertoViewController
+                cant.cantidadMostrada = String(cantidadLlevada)
+                print ("hola")
+                
+            
+        }
+    }
       }
 

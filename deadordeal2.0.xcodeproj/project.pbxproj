@@ -13,6 +13,7 @@
 		884F3A672BC84CEC00D7867F /* SplashPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A662BC84CEC00D7867F /* SplashPlayViewController.swift */; };
 		88A1A29F2BC974CC005347D8 /* MaletinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1A29E2BC974CC005347D8 /* MaletinesViewController.swift */; };
 		88A1A2A12BC99C14005347D8 /* mujer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88A1A2A02BC99C14005347D8 /* mujer.jpeg */; };
+		88A1A2A32BC9A6CF005347D8 /* MaletinabiertoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A1A2A22BC9A6CF005347D8 /* MaletinabiertoViewController.swift */; };
 		88CFCB822BA3965800537697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFCB812BA3965800537697 /* AppDelegate.swift */; };
 		88CFCB842BA3965800537697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFCB832BA3965800537697 /* SceneDelegate.swift */; };
 		88CFCB862BA3965800537697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFCB852BA3965800537697 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 		884F3A662BC84CEC00D7867F /* SplashPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPlayViewController.swift; sourceTree = "<group>"; };
 		88A1A29E2BC974CC005347D8 /* MaletinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaletinesViewController.swift; sourceTree = "<group>"; };
 		88A1A2A02BC99C14005347D8 /* mujer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mujer.jpeg; sourceTree = "<group>"; };
+		88A1A2A22BC9A6CF005347D8 /* MaletinabiertoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaletinabiertoViewController.swift; sourceTree = "<group>"; };
 		88CFCB7E2BA3965800537697 /* deadordeal2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deadordeal2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CFCB812BA3965800537697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CFCB832BA3965800537697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				884F3A662BC84CEC00D7867F /* SplashPlayViewController.swift */,
 				88A1A29E2BC974CC005347D8 /* MaletinesViewController.swift */,
 				88CFCB852BA3965800537697 /* ViewController.swift */,
+				88A1A2A22BC9A6CF005347D8 /* MaletinabiertoViewController.swift */,
 				88CFCB872BA3965800537697 /* Main.storyboard */,
 				884F3A622BC8435D00D7867F /* MenuViewController.swift */,
 				884F3A5E2BC8412900D7867F /* SplashViewController.swift */,
@@ -182,6 +185,7 @@
 				88A1A29F2BC974CC005347D8 /* MaletinesViewController.swift in Sources */,
 				884F3A632BC8435D00D7867F /* MenuViewController.swift in Sources */,
 				88CFCB822BA3965800537697 /* AppDelegate.swift in Sources */,
+				88A1A2A32BC9A6CF005347D8 /* MaletinabiertoViewController.swift in Sources */,
 				88CFCB842BA3965800537697 /* SceneDelegate.swift in Sources */,
 				884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */,
 				884F3A672BC84CEC00D7867F /* SplashPlayViewController.swift in Sources */,
