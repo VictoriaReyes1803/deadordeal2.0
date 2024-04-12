@@ -16,6 +16,7 @@ class MaletinesViewController: UIViewController {
     var maletinUsuario: (posicion: Int, cantidad: Int)?
     var cantidadLlevada:Int = 0
     var contadorClicks = 1
+    var cantidadIndex:Int = 0
     
         override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +37,7 @@ class MaletinesViewController: UIViewController {
         let tag = sender.tag
         print (tag)
         
-        let cantidadIndex = indiceCantidades[tag]
+        cantidadIndex = indiceCantidades[tag]
         print("Maletin",cantidadIndex)
         print("Tag del botón clickeado: \(tag)")
         
@@ -69,10 +70,8 @@ class MaletinesViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MuestraDinero" {
              let cant = segue.destination as! MaletinabiertoViewController
-                cant.cantidadMostrada = String(cantidadLlevada)
+            cant.cantidadMostrada = String(self.cantidadIndex)
                 print ("hola")
-                
-            
         }
     }
       }

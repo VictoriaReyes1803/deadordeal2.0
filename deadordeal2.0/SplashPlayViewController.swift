@@ -19,7 +19,7 @@ class SplashPlayViewController: UIViewController {
         let y = -h
         imvSplashPlay.frame = CGRect(x: x, y: y, width: w, height: h)
         imvSplashPlay.alpha = 0.0
-        imvSplashPlay.transform = CGAffineTransform(scaleX: 0.1, y: 0.1) // Escala inicial para el efecto de zoom
+        imvSplashPlay.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -31,7 +31,6 @@ class SplashPlayViewController: UIViewController {
                        initialSpringVelocity: 0.8,
                        options: .curveEaseInOut,
                        animations: {
-            // Animación de posición y escala
             let centerX = self.view.frame.width / 2
             let centerY = self.view.frame.height / 2
             self.imvSplashPlay.center = CGPoint(x: centerX, y: centerY)
