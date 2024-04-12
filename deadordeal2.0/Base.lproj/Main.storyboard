@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6U5-pK-vwY">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,111 +8,19 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Maletines View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MaletinesViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fond.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="evf-XV-nkH">
-                                <rect key="frame" x="0.0" y="-60" width="428" height="986"/>
+                                <rect key="frame" x="0.0" y="-60" width="414" height="956"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVs-Sj-mSF">
-                                <rect key="frame" x="306" y="569" width="107" height="92.666666666666629"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="15">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trF-tf-nc6">
-                                <rect key="frame" x="160.33333333333334" y="569" width="107.33333333333334" height="92.666666666666629"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="14">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unz-NB-KAU">
-                                <rect key="frame" x="14.999999999999993" y="569" width="107.33333333333331" height="92.666666666666629"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="13">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNX-k3-QSa">
-                                <rect key="frame" x="14.999999999999993" y="466.33333333333331" width="107.33333333333331" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="10">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG4-cq-XsW">
-                                <rect key="frame" x="160.33333333333334" y="466.33333333333331" width="107.33333333333334" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="11">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-pf-WQF">
-                                <rect key="frame" x="306" y="363.66666666666669" width="107" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="9">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-fK-RuZ">
-                                <rect key="frame" x="160.33333333333334" y="363.66666666666669" width="107.33333333333334" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="8">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4C-BG-jt8">
-                                <rect key="frame" x="14.999999999999993" y="158.66666666666666" width="107.33333333333331" height="92.666666666666657"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="height" multiplier="103:89" id="rG3-ld-weu"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="1">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKf-DT-sb0">
-                                <rect key="frame" x="14.999999999999993" y="261.33333333333331" width="107.33333333333331" height="92.333333333333314"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="4">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aug-K0-hDX">
-                                <rect key="frame" x="306" y="261.33333333333331" width="107" height="92.333333333333314"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="6">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-ek-df6">
-                                <rect key="frame" x="14.999999999999993" y="363.66666666666669" width="107.33333333333331" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="7">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="38E-nT-w83">
-                                <rect key="frame" x="0.0" y="66.666666666666671" width="428" height="52.000000000000014"/>
+                                <rect key="frame" x="0.0" y="63.666666666666657" width="414" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="h7G-tP-wYa"/>
                                 </constraints>
@@ -122,45 +30,185 @@
                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="3" height="-2"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNx-F5-F7z">
-                                <rect key="frame" x="160.33333333333334" y="158.66666666666666" width="107.33333333333334" height="92.666666666666657"/>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVs-Sj-mSF">
+                                <rect key="frame" x="295.33333333333331" y="554" width="103.66666666666669" height="89.666666666666629"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="15">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="psU-C1-ck7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trF-tf-nc6">
+                                <rect key="frame" x="155" y="554" width="104" height="89.666666666666629"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="14">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9i-Ur-481"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unz-NB-KAU">
+                                <rect key="frame" x="15.000000000000007" y="554" width="103.66666666666669" height="89.666666666666629"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="13">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p0G-No-B1g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNX-k3-QSa">
+                                <rect key="frame" x="15.000000000000007" y="454.33333333333331" width="103.66666666666669" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="10">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="arP-cf-Y8S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IG4-cq-XsW">
+                                <rect key="frame" x="155" y="454.33333333333331" width="104" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="11">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRY-sh-fSE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf7-pf-WQF">
+                                <rect key="frame" x="295.33333333333331" y="354.66666666666669" width="103.66666666666669" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8x6-q0-4dx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-fK-RuZ">
+                                <rect key="frame" x="155" y="354.66666666666669" width="104" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NH3-QR-Trz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4C-BG-jt8">
+                                <rect key="frame" x="15.000000000000007" y="155.66666666666666" width="103.66666666666669" height="89.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Z4C-BG-jt8" secondAttribute="height" multiplier="103:89" id="rG3-ld-weu"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G0Q-fK-Ixw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKf-DT-sb0">
+                                <rect key="frame" x="15.000000000000007" y="255.33333333333334" width="103.66666666666669" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oAi-3t-ZdM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aug-K0-hDX">
+                                <rect key="frame" x="295.33333333333331" y="255.33333333333334" width="103.66666666666669" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pZ4-nb-rNb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNx-F5-F7z">
+                                <rect key="frame" x="155" y="155.66666666666666" width="104" height="89.666666666666657"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="2">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sTL-55-Xlh"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMJ-FP-v5k">
-                                <rect key="frame" x="160.33333333333334" y="261.33333333333331" width="107.33333333333334" height="92.333333333333314"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="5">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-cG-9x8">
-                                <rect key="frame" x="306" y="158.66666666666666" width="107" height="92.666666666666657"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NyW-cG-9x8">
+                                <rect key="frame" x="295.33333333333331" y="155.66666666666666" width="103.66666666666669" height="89.666666666666657"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="3">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t06-Rx-bsl"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCB-ud-Tbt">
-                                <rect key="frame" x="160.33333333333334" y="671.66666666666663" width="107.33333333333334" height="92.666666666666629"/>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCB-ud-Tbt">
+                                <rect key="frame" x="155" y="653.66666666666663" width="104" height="89.666666666666629"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="16">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cw4-tW-8zW"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7K-TP-tCf">
-                                <rect key="frame" x="306" y="466.33333333333331" width="107" height="92.666666666666686"/>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7K-TP-tCf">
+                                <rect key="frame" x="295.33333333333331" y="454.33333333333331" width="103.66666666666669" height="89.666666666666686"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="12">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7z-Df-f0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMJ-FP-v5k">
+                                <rect key="frame" x="155" y="255.33333333333334" width="104" height="89.333333333333343"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cU0-xU-hiL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-ek-df6">
+                                <rect key="frame" x="15.000000000000007" y="354.66666666666669" width="103.66666666666669" height="89.666666666666686"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="maletinTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vo0-2G-j1U"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -240,6 +288,23 @@
                             <constraint firstItem="IG4-cq-XsW" firstAttribute="top" secondItem="QH0-fK-RuZ" secondAttribute="bottom" constant="10" id="zRh-de-JtM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="btnMaletines" destination="UVs-Sj-mSF" collectionClass="NSMutableArray" id="tP2-mr-lKY"/>
+                        <outletCollection property="btnMaletines" destination="HCB-ud-Tbt" collectionClass="NSMutableArray" id="JSM-yI-YBa"/>
+                        <outletCollection property="btnMaletines" destination="trF-tf-nc6" collectionClass="NSMutableArray" id="yw6-ev-tqR"/>
+                        <outletCollection property="btnMaletines" destination="P7K-TP-tCf" collectionClass="NSMutableArray" id="kHc-ET-iDn"/>
+                        <outletCollection property="btnMaletines" destination="Z4C-BG-jt8" collectionClass="NSMutableArray" id="Ebx-BZ-V8k"/>
+                        <outletCollection property="btnMaletines" destination="DNx-F5-F7z" collectionClass="NSMutableArray" id="nJz-3C-GGg"/>
+                        <outletCollection property="btnMaletines" destination="NyW-cG-9x8" collectionClass="NSMutableArray" id="a3m-nb-Ri8"/>
+                        <outletCollection property="btnMaletines" destination="fKf-DT-sb0" collectionClass="NSMutableArray" id="vHn-yJ-2ce"/>
+                        <outletCollection property="btnMaletines" destination="aMJ-FP-v5k" collectionClass="NSMutableArray" id="6iz-5c-FNg"/>
+                        <outletCollection property="btnMaletines" destination="aug-K0-hDX" collectionClass="NSMutableArray" id="oNj-f1-Mj1"/>
+                        <outletCollection property="btnMaletines" destination="QH0-fK-RuZ" collectionClass="NSMutableArray" id="jxp-3e-pTL"/>
+                        <outletCollection property="btnMaletines" destination="Tf7-pf-WQF" collectionClass="NSMutableArray" id="Fea-nj-wWK"/>
+                        <outletCollection property="btnMaletines" destination="vNX-k3-QSa" collectionClass="NSMutableArray" id="azn-zY-cTj"/>
+                        <outletCollection property="btnMaletines" destination="IG4-cq-XsW" collectionClass="NSMutableArray" id="ijz-EC-iAp"/>
+                        <outletCollection property="btnMaletines" destination="unz-NB-KAU" collectionClass="NSMutableArray" id="5bs-8g-1Hs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,7 +315,7 @@
             <objects>
                 <viewController id="d3t-Oi-jrY" customClass="SplashPlayViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v0Y-Ig-a91">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="letsstar.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="PyF-sa-Uqz">
@@ -275,101 +340,63 @@
             <objects>
                 <viewController id="R2e-uz-AQc" customClass="ViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F69-GT-dne">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fond.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qGN-Xt-xQF">
-                                <rect key="frame" x="0.0" y="-13" width="428" height="939"/>
+                                <rect key="frame" x="0.0" y="-16" width="414" height="912"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5c-3h-e6d">
-                                <rect key="frame" x="306" y="569" width="107" height="92.666666666666629"/>
+                                <rect key="frame" x="375" y="251.66666666666663" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMO-vS-Dn1">
-                                <rect key="frame" x="160.33333333333334" y="569" width="107.33333333333334" height="92.666666666666629"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCN-ME-y9x">
-                                <rect key="frame" x="14.999999999999993" y="569" width="107.33333333333331" height="92.666666666666629"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tf0-MU-moe">
-                                <rect key="frame" x="14.999999999999993" y="466.33333333333331" width="107.33333333333331" height="92.666666666666686"/>
+                                <rect key="frame" x="195" y="251.66666666666663" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pnd-FX-Ccv">
-                                <rect key="frame" x="306" y="466.33333333333331" width="107" height="92.666666666666686"/>
+                                <rect key="frame" x="375" y="227.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywU-76-wza">
-                                <rect key="frame" x="160.33333333333334" y="466.33333333333331" width="107.33333333333334" height="92.666666666666686"/>
+                                <rect key="frame" x="195" y="227.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzW-sZ-ipu">
-                                <rect key="frame" x="306" y="363.66666666666669" width="107" height="92.666666666666686"/>
+                                <rect key="frame" x="375" y="203.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0Z-EP-EDz">
-                                <rect key="frame" x="160.33333333333334" y="363.66666666666669" width="107.33333333333334" height="92.666666666666686"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zJ-Ez-L2s">
-                                <rect key="frame" x="14.999999999999993" y="158.66666666666666" width="107.33333333333331" height="92.666666666666657"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="height" multiplier="103:89" id="6Iy-FA-Je5"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrO-l5-ABp">
-                                <rect key="frame" x="14.999999999999993" y="261.33333333333331" width="107.33333333333331" height="92.333333333333314"/>
+                                <rect key="frame" x="195" y="203.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-h4-QZX">
-                                <rect key="frame" x="306" y="261.33333333333331" width="107" height="92.333333333333314"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="maletin.jpg"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULx-cc-Tgo">
-                                <rect key="frame" x="14.999999999999993" y="363.66666666666669" width="107.33333333333331" height="92.666666666666686"/>
+                                <rect key="frame" x="375" y="179.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE YOUR CASE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RYi-g7-mBf">
-                                <rect key="frame" x="0.0" y="66.666666666666671" width="428" height="52"/>
+                                <rect key="frame" x="0.0" y="63.666666666666657" width="414" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="XGm-iO-8Hx"/>
                                 </constraints>
@@ -380,28 +407,28 @@
                                 <size key="shadowOffset" width="3" height="-2"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3q-2Z-Aeh">
-                                <rect key="frame" x="160.33333333333334" y="158.66666666666666" width="107.33333333333334" height="92.666666666666657"/>
+                                <rect key="frame" x="195" y="155.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPX-NB-ILA">
-                                <rect key="frame" x="160.33333333333334" y="261.33333333333331" width="107.33333333333334" height="92.333333333333314"/>
+                                <rect key="frame" x="195" y="179.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTg-1z-9tM">
-                                <rect key="frame" x="306" y="158.66666666666666" width="107" height="92.666666666666657"/>
+                                <rect key="frame" x="375" y="155.66666666666666" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbN-1E-SvG">
-                                <rect key="frame" x="160.33333333333334" y="671.66666666666663" width="107.33333333333334" height="92.666666666666629"/>
+                                <rect key="frame" x="195" y="275.66666666666669" width="24" height="14"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <backgroundConfiguration key="background" image="maletin.jpg"/>
@@ -411,74 +438,33 @@
                         <viewLayoutGuide key="safeArea" id="Az8-BI-e8Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ywU-76-wza" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="0IO-RH-QaL"/>
                             <constraint firstItem="UTg-1z-9tM" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="0Qm-gi-mLf"/>
                             <constraint firstItem="UTg-1z-9tM" firstAttribute="width" secondItem="e3q-2Z-Aeh" secondAttribute="width" id="0hM-oL-QpP"/>
-                            <constraint firstItem="KrO-l5-ABp" firstAttribute="top" secondItem="0zJ-Ez-L2s" secondAttribute="bottom" constant="10" id="0p0-nN-tve"/>
                             <constraint firstItem="fMO-vS-Dn1" firstAttribute="top" secondItem="ywU-76-wza" secondAttribute="bottom" constant="10" id="1Zy-aC-O4v"/>
-                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="36X-ep-UK6"/>
-                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="top" secondItem="KrO-l5-ABp" secondAttribute="bottom" constant="10" id="6av-6e-Xgz"/>
-                            <constraint firstItem="sbN-1E-SvG" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="7EV-dS-dHo"/>
-                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="7T4-se-x8I"/>
-                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="7vI-Mw-fCi"/>
-                            <constraint firstItem="Tf0-MU-moe" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="8Eg-Gs-0na"/>
-                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="8j7-0W-RkB"/>
                             <constraint firstItem="Pnd-FX-Ccv" firstAttribute="top" secondItem="dzW-sZ-ipu" secondAttribute="bottom" constant="10" id="8vI-7E-PSh"/>
                             <constraint firstItem="qGN-Xt-xQF" firstAttribute="leading" secondItem="F69-GT-dne" secondAttribute="leading" id="9OF-AS-fJJ"/>
-                            <constraint firstItem="KrO-l5-ABp" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="9fe-gE-3ZO"/>
-                            <constraint firstItem="n5c-3h-e6d" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="AQy-MI-lrS"/>
-                            <constraint firstItem="Tf0-MU-moe" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="Aco-ak-Qu5"/>
-                            <constraint firstItem="dzW-sZ-ipu" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="C6v-fg-nt7"/>
                             <constraint firstItem="sbN-1E-SvG" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="Ciz-OU-A8k"/>
                             <constraint firstItem="qGN-Xt-xQF" firstAttribute="top" secondItem="Az8-BI-e8Q" secondAttribute="top" constant="-60" id="EqO-5O-XyS"/>
                             <constraint firstItem="e3q-2Z-Aeh" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="GWt-oi-EEQ"/>
                             <constraint firstItem="dzW-sZ-ipu" firstAttribute="top" secondItem="uN0-h4-QZX" secondAttribute="bottom" constant="10" id="Go2-iZ-Z5s"/>
                             <constraint firstItem="dzW-sZ-ipu" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="HC3-84-qDu"/>
-                            <constraint firstItem="ywU-76-wza" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="JDt-L0-QgZ"/>
-                            <constraint firstItem="KrO-l5-ABp" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="JiX-bN-XaH"/>
                             <constraint firstItem="n5c-3h-e6d" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="JmO-pY-Fg1"/>
                             <constraint firstAttribute="trailing" secondItem="qGN-Xt-xQF" secondAttribute="trailing" id="KbM-xF-SZP"/>
                             <constraint firstItem="uN0-h4-QZX" firstAttribute="top" secondItem="UTg-1z-9tM" secondAttribute="bottom" constant="10" id="KdT-ju-LZg"/>
-                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="LGj-YQ-nKS"/>
-                            <constraint firstItem="gCN-ME-y9x" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="LtV-Ca-YuC"/>
-                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="top" secondItem="RYi-g7-mBf" secondAttribute="bottom" constant="40" id="M1e-6e-ODS"/>
                             <constraint firstItem="V0Z-EP-EDz" firstAttribute="top" secondItem="QPX-NB-ILA" secondAttribute="bottom" constant="10" id="MjL-tt-aZt"/>
                             <constraint firstItem="RYi-g7-mBf" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="MqT-CC-mZa"/>
                             <constraint firstItem="ywU-76-wza" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="N4o-uD-oza"/>
-                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="NKs-tN-hXR"/>
-                            <constraint firstItem="gCN-ME-y9x" firstAttribute="centerX" secondItem="0zJ-Ez-L2s" secondAttribute="centerX" id="Szz-UX-lhx"/>
                             <constraint firstItem="V0Z-EP-EDz" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="TYx-SQ-qLE"/>
-                            <constraint firstItem="KrO-l5-ABp" firstAttribute="leading" secondItem="Az8-BI-e8Q" secondAttribute="leading" constant="15" id="U4S-gB-f6p"/>
-                            <constraint firstItem="Tf0-MU-moe" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="VAx-a4-7GE"/>
-                            <constraint firstItem="V0Z-EP-EDz" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Y4f-5q-trm"/>
-                            <constraint firstItem="uN0-h4-QZX" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Yf7-JX-kqn"/>
-                            <constraint firstItem="KrO-l5-ABp" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="Yx5-hQ-xp1"/>
-                            <constraint firstItem="Pnd-FX-Ccv" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="aXr-9W-iBO"/>
-                            <constraint firstItem="gCN-ME-y9x" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="azM-yj-BMU"/>
                             <constraint firstItem="Az8-BI-e8Q" firstAttribute="trailing" secondItem="UTg-1z-9tM" secondAttribute="trailing" constant="15" id="bKg-v8-UMv"/>
-                            <constraint firstItem="ULx-cc-Tgo" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="bTI-XK-V7l"/>
-                            <constraint firstItem="sbN-1E-SvG" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="cBP-uO-OSp"/>
-                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="width" secondItem="F69-GT-dne" secondAttribute="width" multiplier="0.25" id="ctg-gE-ajN"/>
                             <constraint firstItem="RYi-g7-mBf" firstAttribute="width" secondItem="F69-GT-dne" secondAttribute="width" id="dze-Py-gKW"/>
-                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="eVg-zv-MoL"/>
                             <constraint firstItem="Az8-BI-e8Q" firstAttribute="trailing" secondItem="uN0-h4-QZX" secondAttribute="trailing" constant="15" id="ftp-hB-JxJ"/>
-                            <constraint firstItem="fMO-vS-Dn1" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="ga3-Hx-T9z"/>
                             <constraint firstItem="QPX-NB-ILA" firstAttribute="top" secondItem="e3q-2Z-Aeh" secondAttribute="bottom" constant="10" id="gby-ZT-Xg5"/>
-                            <constraint firstItem="uN0-h4-QZX" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="hcb-0x-ef4"/>
                             <constraint firstItem="UTg-1z-9tM" firstAttribute="height" secondItem="e3q-2Z-Aeh" secondAttribute="height" id="i6t-bA-X6b"/>
-                            <constraint firstItem="Tf0-MU-moe" firstAttribute="top" secondItem="ULx-cc-Tgo" secondAttribute="bottom" constant="10" id="iRr-jj-zZ2"/>
-                            <constraint firstItem="gCN-ME-y9x" firstAttribute="top" secondItem="Tf0-MU-moe" secondAttribute="bottom" constant="10" id="ihP-CK-KNK"/>
-                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="ja4-0y-5wX"/>
                             <constraint firstItem="Pnd-FX-Ccv" firstAttribute="centerX" secondItem="UTg-1z-9tM" secondAttribute="centerX" id="jzh-H4-E9r"/>
                             <constraint firstItem="ywU-76-wza" firstAttribute="top" secondItem="V0Z-EP-EDz" secondAttribute="bottom" constant="10" id="p65-sO-VCF"/>
-                            <constraint firstItem="e3q-2Z-Aeh" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="pUc-aN-Qy6"/>
-                            <constraint firstItem="QPX-NB-ILA" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="qbg-JY-igV"/>
-                            <constraint firstItem="n5c-3h-e6d" firstAttribute="height" secondItem="0zJ-Ez-L2s" secondAttribute="height" id="rel-Th-Cvb"/>
                             <constraint firstItem="fMO-vS-Dn1" firstAttribute="centerX" secondItem="e3q-2Z-Aeh" secondAttribute="centerX" id="rse-gm-5Eu"/>
-                            <constraint firstItem="QPX-NB-ILA" firstAttribute="width" secondItem="0zJ-Ez-L2s" secondAttribute="width" id="sIa-wP-Vs5"/>
                             <constraint firstAttribute="bottom" secondItem="qGN-Xt-xQF" secondAttribute="bottom" id="szc-c6-i6I"/>
                             <constraint firstItem="QPX-NB-ILA" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="tzj-Qu-bvm"/>
-                            <constraint firstItem="0zJ-Ez-L2s" firstAttribute="height" secondItem="F69-GT-dne" secondAttribute="height" multiplier="0.1" id="uTh-um-aAK"/>
                             <constraint firstItem="n5c-3h-e6d" firstAttribute="top" secondItem="Pnd-FX-Ccv" secondAttribute="bottom" constant="10" id="vhp-IJ-HUZ"/>
                             <constraint firstItem="sbN-1E-SvG" firstAttribute="top" secondItem="fMO-vS-Dn1" secondAttribute="bottom" constant="10" id="ySX-Gq-x0t"/>
                             <constraint firstItem="e3q-2Z-Aeh" firstAttribute="centerX" secondItem="F69-GT-dne" secondAttribute="centerX" id="yaE-90-IiY"/>
@@ -495,7 +481,7 @@
             <objects>
                 <viewController id="6U5-pK-vwY" customClass="SplashViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mqC-RF-dMk">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Deal_or_No_Deal_Logo_2024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fS3-ti-dHN">
@@ -521,7 +507,7 @@
             <objects>
                 <viewController id="RuG-4V-yX1" customClass="MenuViewController" customModule="deadordeal2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wN0-MV-BfQ">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8P-zv-PFC">
