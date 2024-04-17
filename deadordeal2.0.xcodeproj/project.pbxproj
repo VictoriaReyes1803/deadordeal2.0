@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883EBB852BD023CD00C953AF /* fond copia.jpg */; };
+		884D27D92BCDA9F500389A4F /* BankeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884D27D82BCDA9F500389A4F /* BankeroViewController.swift */; };
 		884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A5E2BC8412900D7867F /* SplashViewController.swift */; };
 		884F3A632BC8435D00D7867F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A622BC8435D00D7867F /* MenuViewController.swift */; };
 		884F3A652BC84CB600D7867F /* letsstar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 884F3A642BC84CB600D7867F /* letsstar.jpeg */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		883EBB852BD023CD00C953AF /* fond copia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond copia.jpg"; sourceTree = "<group>"; };
+		884D27D82BCDA9F500389A4F /* BankeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeroViewController.swift; sourceTree = "<group>"; };
 		884F3A5E2BC8412900D7867F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		884F3A622BC8435D00D7867F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		884F3A642BC84CB600D7867F /* letsstar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letsstar.jpeg; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				884F3A662BC84CEC00D7867F /* SplashPlayViewController.swift */,
 				88A1A29E2BC974CC005347D8 /* MaletinesViewController.swift */,
 				88CFCB852BA3965800537697 /* ViewController.swift */,
+				884D27D82BCDA9F500389A4F /* BankeroViewController.swift */,
 				88A1A2A22BC9A6CF005347D8 /* MaletinabiertoViewController.swift */,
 				88CFCB872BA3965800537697 /* Main.storyboard */,
 				88A1A2A42BC9C919005347D8 /* DineroViewController.swift */,
@@ -105,6 +110,7 @@
 		88CFCB952BA397D900537697 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				883EBB852BD023CD00C953AF /* fond copia.jpg */,
 				88A1A2A02BC99C14005347D8 /* mujer.jpeg */,
 				884F3A642BC84CB600D7867F /* letsstar.jpeg */,
 				88CFCB9A2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg */,
@@ -178,6 +184,7 @@
 				88CFCB8E2BA3965900537697 /* LaunchScreen.storyboard in Resources */,
 				88CFCB8B2BA3965900537697 /* Assets.xcassets in Resources */,
 				88CFCB9B2BA3987800537697 /* Deal_or_No_Deal_Logo_2024.jpg in Resources */,
+				883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */,
 				88CFCB892BA3965800537697 /* Main.storyboard in Resources */,
 				E8E011552BC9AE8A00AE8700 /* Banker.storyboard in Resources */,
 				E8E011522BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg in Resources */,
@@ -201,6 +208,7 @@
 				88CFCB842BA3965800537697 /* SceneDelegate.swift in Sources */,
 				884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */,
 				884F3A672BC84CEC00D7867F /* SplashPlayViewController.swift in Sources */,
+				884D27D92BCDA9F500389A4F /* BankeroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

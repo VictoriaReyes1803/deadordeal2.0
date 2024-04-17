@@ -12,6 +12,15 @@ class MaletinabiertoViewController: UIViewController {
     
     @IBOutlet weak var imgMujer: UIImageView!
     var cantidadMostrada: String?
+    
+    //variables vienen de Maletines
+    var maletinUsuario: (posicion: Int, cantidad: Int)?
+    var cantidadLlevada:Int = 0
+    var cantidadeselegidas = [Int]()
+    var contadorClicks = 1
+    var cantidadIndex:Int = 0
+    var cases = 0
+    var tagC = [Int]()
 
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -34,7 +43,7 @@ class MaletinabiertoViewController: UIViewController {
         override func viewDidAppear(_ animated: Bool) {
             super.viewDidAppear(animated)
             
-            UIView.animate(withDuration: 1.5,
+            UIView.animate(withDuration: 0.5,
                            delay: 0,
                            usingSpringWithDamping: 0.6,
                            initialSpringVelocity: 0.8,
@@ -57,7 +66,13 @@ class MaletinabiertoViewController: UIViewController {
         if segue.identifier == "Quitadinero" {
              let cant = segue.destination as! DineroViewController
                 cant.Dinero = cantidadMostrada
-                print ("hola")
+            cant.maletinUsuario = maletinUsuario
+            cant.cantidadeselegidas = cantidadeselegidas
+            cant.contadorClicks = contadorClicks
+            cant.tagC = tagC
+            cant.cases = cases
+                print ("Pasaste a Quitar Dinero")
         }
+        
     }
 }
