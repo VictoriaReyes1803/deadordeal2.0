@@ -563,26 +563,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8P-zv-PFC">
-                                <rect key="frame" x="131" y="180" width="166" height="127"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Deal_or_No_Deal_Logo_2024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rIL-Qm-m1i">
+                                <rect key="frame" x="40" y="130.00000000000003" width="348" height="277.66666666666674"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgf-6h-5WA">
+                                <rect key="frame" x="123" y="491" width="182" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.43921568989999998" green="0.77254903320000001" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="d3t-Oi-jrY" kind="presentation" modalPresentationStyle="fullScreen" id="ZpA-gH-lZ4"/>
-                                </connections>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Jugar">
+                                            <attributes>
+                                                <font key="NSFont" size="23" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-wX-9oU">
-                                <rect key="frame" x="17" y="635" width="127" height="35"/>
+                                <rect key="frame" x="158" y="600" width="105" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96841138599999999" green="0.6924850709" blue="0.20884919539999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Instrucciones">
+                                <buttonConfiguration key="configuration" style="filled">
                                     <backgroundConfiguration key="background"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Instrucciones">
+                                            <attributes>
+                                                <font key="NSFont" size="14" name="Futura-Medium"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.96841138599999999" green="0.6924850709" blue="0.20884919539999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="hIl-4T-YjK" kind="presentation" modalPresentationStyle="fullScreen" id="hlT-kK-Xa6"/>
@@ -591,6 +607,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E7Q-lO-dir"/>
                         <color key="backgroundColor" red="0.96862745289999996" green="0.79215681550000006" blue="0.2588235438" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="rIL-Qm-m1i" firstAttribute="height" secondItem="wN0-MV-BfQ" secondAttribute="height" multiplier="0.3" id="3OE-Nb-eAI"/>
+                            <constraint firstItem="rIL-Qm-m1i" firstAttribute="leading" secondItem="E7Q-lO-dir" secondAttribute="leading" constant="40" id="Jhb-ZQ-FPn"/>
+                            <constraint firstItem="rIL-Qm-m1i" firstAttribute="top" secondItem="E7Q-lO-dir" secondAttribute="top" constant="130" id="M0l-ep-Yy9"/>
+                            <constraint firstItem="E7Q-lO-dir" firstAttribute="trailing" secondItem="rIL-Qm-m1i" secondAttribute="trailing" constant="40" id="qfP-sZ-7bg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Frt-Nj-kV6" sceneMemberID="firstResponder"/>
@@ -1012,7 +1034,7 @@ Ganar: Si decides quedarte con tu maletín al final del juego y contiene una de 
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9pt-mK-Llr"/>
-        <segue reference="vzl-u3-4lN"/>
+        <segue reference="bqN-nN-b4a"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Deal_or_No_Deal_Logo_2024.jpg" width="400" height="400"/>
