@@ -17,9 +17,16 @@ class MenuViewController: UIViewController{
     let records =  Record.sharedRecords()
     override func viewDidLoad() {
         super.viewDidLoad()
+        if records.puntos.count >= 6
+        {
+            records.puntos.removeLast()
+            records.nombres.removeLast()
+        }
+        
         print("nombres: \(records.nombres)")
         print("puntos: \(records.puntos)")
         print("puntos: \(jugador.puntos)")
+        
         btnJugar.isEnabled = false
         (UIApplication.shared.delegate as? AppDelegate)?.playAudio()
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ocultarTeclado))
@@ -42,5 +49,5 @@ class MenuViewController: UIViewController{
     }
 
     
-
+    
 }

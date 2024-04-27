@@ -9,6 +9,8 @@ import UIKit
 import AVFoundation
 
 class MaletinabiertoViewController: UIViewController {
+  
+    
     @IBOutlet weak var lblCantidad: UILabel!
     
     @IBOutlet weak var imgMaletin: UIImageView!
@@ -22,28 +24,12 @@ class MaletinabiertoViewController: UIViewController {
     var cantidadIndex:Int = 0
     var cases = 0
     var tagC = [Int]()
-    var audioPlayer: AVAudioPlayer!
-    var player = AVAudioPlayer()
     
     
         override func viewDidLoad() {
             super.viewDidLoad()
             
-            let audioFilename = "Old victory sound roblox"
             
-            if let audioURL = Bundle.main.url(forResource: audioFilename, withExtension: "mp3")
-            {
-                do {
-                    audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
-                    audioPlayer.numberOfLoops = 0
-                    audioPlayer.play()
-                } catch {
-                    print("Error al inicializar el reproductor de audio: \(error.localizedDescription)")
-                }
-            } else {
-                print("Archivo de audio no encontrado")
-            }
-        
             
             if let cantidad = cantidadMostrada {
                        lblCantidad.text = "$" + cantidad + ".00"
@@ -104,5 +90,10 @@ class MaletinabiertoViewController: UIViewController {
     @IBAction func regresar(_ sender: Any) {
         self.dismiss(animated: true)
     }
+
     
-}
+    
+  
+    
+    
+    }

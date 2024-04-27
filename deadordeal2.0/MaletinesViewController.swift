@@ -8,6 +8,10 @@
 import UIKit
 import AVFoundation
 class MaletinesViewController: UIViewController {
+    @IBOutlet weak var contadorSegundos: UILabel!
+    var segundosTranscurridos = 0
+    var timer: Timer?
+    
     
     var jugador =  Jugador.sharedData()
     @IBOutlet var backView: UIView!
@@ -33,12 +37,9 @@ class MaletinesViewController: UIViewController {
     var tagC = [Int]()
     var audioPlayer: AVAudioPlayer!
     var player = AVAudioPlayer()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-     
-        
+startT()
         print(cantidadesMaletines)
         Cantidadesshuffle = cantidadesMaletines
         Cantidadesshuffle.shuffle()
@@ -77,8 +78,20 @@ class MaletinesViewController: UIViewController {
         print("Maletin",cantidadIndex)
         maletin.guardarCantidadIndex(cantidadIndex)
         print("Tag del botón clickeado: \(tag)")
+        let audioFilename = "sonido"
         
-        
+        if let audioURL = Bundle.main.url(forResource: audioFilename, withExtension: "mp3")
+        {
+            do {
+                self.audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
+                self.audioPlayer.numberOfLoops = 0
+                self.audioPlayer.play()
+            } catch {
+                print("Error al inicializar el reproductor de audio: \(error.localizedDescription)")
+            }
+        } else {
+            print("Archivo de audio no encontrado")
+        }
         if contadorClicks == 1 {
             maletinUsuario = (posicion: tag, cantidad: cantidadIndex)
             contadorClicks = contadorClicks + 1
@@ -327,6 +340,23 @@ class MaletinesViewController: UIViewController {
         self.present(menu, animated: true)
     }
     
-    
-    
+   
+    deinit {
+            // Detener el temporizador cuando se destruye la vista
+            stopTimer()
+        }
+        
+    func startT() {
+        timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
+            guard let self = self else { return }
+            self.segundosTranscurridos += 1
+            self.contadorSegundos.text = ":\(self.segundosTranscurridos)"
+        }
+    }
+        
+        func stopTimer() {
+            timer?.invalidate()
+            timer = nil
+        }
+        
 }

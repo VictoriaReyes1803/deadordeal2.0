@@ -13,6 +13,8 @@
 		884561A42BD8549700AF62B1 /* open_case.png in Resources */ = {isa = PBXBuildFile; fileRef = 884561A32BD8549700AF62B1 /* open_case.png */; };
 		884561A72BD854C000AF62B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884561A62BD854C000AF62B1 /* AVFoundation.framework */; };
 		884561A92BD872BA00AF62B1 /* Maletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884561A82BD872BA00AF62B1 /* Maletin.swift */; };
+		884842AE2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */; };
+		884842B02BDD6AE800CDC1FA /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 884842AF2BDD6AE800CDC1FA /* sonido.mp3 */; };
 		884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A5E2BC8412900D7867F /* SplashViewController.swift */; };
 		884F3A632BC8435D00D7867F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A622BC8435D00D7867F /* MenuViewController.swift */; };
 		884F3A652BC84CB600D7867F /* letsstar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 884F3A642BC84CB600D7867F /* letsstar.jpeg */; };
@@ -47,6 +49,8 @@
 		884561A32BD8549700AF62B1 /* open_case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_case.png; sourceTree = "<group>"; };
 		884561A62BD854C000AF62B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		884561A82BD872BA00AF62B1 /* Maletin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maletin.swift; sourceTree = "<group>"; };
+		884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pad-high-tension-and-suspense-background-filler-162365.mp3"; path = "../../../../../Downloads/pad-high-tension-and-suspense-background-filler-162365.mp3"; sourceTree = "<group>"; };
+		884842AF2BDD6AE800CDC1FA /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sonido.mp3; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/sonido.mp3"; sourceTree = "<group>"; };
 		884F3A5E2BC8412900D7867F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		884F3A622BC8435D00D7867F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		884F3A642BC84CB600D7867F /* letsstar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letsstar.jpeg; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 		88FB6C242BDCA907008ED25B /* audios */ = {
 			isa = PBXGroup;
 			children = (
+				884842AF2BDD6AE800CDC1FA /* sonido.mp3 */,
+				884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */,
 				88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */,
 				88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */,
 				88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */,
@@ -225,9 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884842AE2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */,
 				884561A42BD8549700AF62B1 /* open_case.png in Resources */,
 				88A1A2A12BC99C14005347D8 /* mujer.jpeg in Resources */,
 				88FB6C1D2BDCA85B008ED25B /* fond.jpg in Resources */,
+				884842B02BDD6AE800CDC1FA /* sonido.mp3 in Resources */,
 				88CFCB8E2BA3965900537697 /* LaunchScreen.storyboard in Resources */,
 				88CFCB8B2BA3965900537697 /* Assets.xcassets in Resources */,
 				883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */,
@@ -417,9 +425,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,9 +453,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

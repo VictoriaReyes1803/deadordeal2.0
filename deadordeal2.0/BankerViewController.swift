@@ -8,17 +8,19 @@
 
 import UIKit
 import AVFAudio
+import Foundation
 
 class BankerViewController: UIViewController {
-    @IBOutlet weak var timerLabel: UILabel!
-        var oferta = Int()
-        @IBOutlet weak var lbOferta: UILabel!
-        var timer: Timer? = nil
-        var secondsRemaining = 15
+    @IBOutlet weak var timeLabel: UILabel!
+    var oferta = Int()
+    @IBOutlet weak var lbOferta: UILabel!
+    var timer: Timer? = nil
+    var secondsRemaining = 15
     var cantidadMostrada: String?
     var jugador =  Jugador.sharedData()
     var maletin: Int!
     let records = Record.sharedRecords()
+    
     
     //variables vienen de Maletines
     var maletinUsuario: (posicion: Int, cantidad: Int)?
@@ -32,14 +34,28 @@ class BankerViewController: UIViewController {
     var player = AVAudioPlayer()
     
     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let audioFilename = "pad-high-tension-and-suspense-background-filler-162365"
         
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            startTimer()
-            oferton()
-            print(records.puntos)
-            print(records.puntos.last)
+        if let audioURL = Bundle.main.url(forResource: audioFilename, withExtension: "mp3")
+        {
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
+                audioPlayer.numberOfLoops = 0
+                audioPlayer.play()
+            } catch {
+                print("Error al inicializar el reproductor de audio: \(error.localizedDescription)")
             }
+        } else {
+            print("Archivo de audio no encontrado")
+        }
+        startTimer()
+        oferton()
+        print(records.puntos)
+        print(records.puntos.last)
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "sgMaletines"
@@ -53,31 +69,32 @@ class BankerViewController: UIViewController {
             
             print ("Valores pasados a Deal or No Deal")
         }
-       
+        
     }
     func oferton() {
         let randomNumber = 501 + Int(arc4random_uniform(UInt32(50000 - 501)))
         oferta = randomNumber
         lbOferta.text = "$\(String(oferta))"
     }
-        func startTimer() {
-                timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updateTimer() {
+        if secondsRemaining > 0 {
+            secondsRemaining -= 1
+            timeLabel.text = "\(secondsRemaining)"
+        } else {
+            if let timer = timer {
+                timer.invalidate()
+                self.timer = nil
             }
-
-            @objc func updateTimer() {
-                if secondsRemaining > 0 {
-                    secondsRemaining -= 1
-                    timerLabel.text = "\(secondsRemaining)"
-                } else {
-                    if let timer = timer {
-                        timer.invalidate()
-                        self.timer = nil
-                    }
-                    self.dismiss(animated: true)
-                }
-            }
-            
-   
+            self.dismiss(animated: true)
+        }
+    }
+    
+    
     @IBAction func deal(_ sender: UIButton) {
         if maletin < oferta
         {
@@ -105,23 +122,30 @@ class BankerViewController: UIViewController {
             jugador.guardarPuntos(oferta)
             print("puntos de \(jugador.nombre): \(oferta)")
             
-                if jugador.puntos >= records.puntos.last!
+            if jugador.puntos >= records.puntos.last!
+            {
+                var index = records.puntos.count
+                for i in 0..<records.puntos.count
                 {
+                    if jugador.puntos >= records.puntos[i]
+                    {
+                        index = i
+                        break
+                        
+                    }
+                }
+                
+                records.puntos.insert(jugador.puntos, at: index)
+                records.nombres.insert(jugador.nombre, at: index)
+                
+                if records.puntos.count > 5 {
                     records.puntos.removeLast()
                     records.nombres.removeLast()
-                    for i in 0..<records.puntos.count
-                    {
-                        if jugador.puntos >= records.puntos[i]
-                        {
-                            records.puntos.insert(jugador.puntos, at: i)
-                            records.nombres.insert(jugador.nombre, at: i)
-                            
-                            break
-                            
-                        }
-                    }
                     
                 }
+                
+            }
+            records.save()
         }
         else
         {
@@ -165,8 +189,9 @@ class BankerViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         stopTimer()
+        audioPlayer?.stop()
     }
-
+    
     func stopTimer() {
         timer?.invalidate()
         timer = nil

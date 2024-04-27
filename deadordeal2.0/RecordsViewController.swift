@@ -8,9 +8,8 @@
 import UIKit
 
 class RecordsViewController: UIViewController {
-
+    
     var records = Record.sharedRecords()
-    var records_actuales = Record.load()
     @IBOutlet weak var lblTop1: UILabel!
     
     @IBOutlet weak var lblTop2: UILabel!
@@ -28,34 +27,30 @@ class RecordsViewController: UIViewController {
         super.viewDidLoad()
         print(records.nombres)
         print(records.puntos)
-        print(records_actuales.self)
         nombres()
         puntos()
-        
-
         // Do any additional setup after loading the view.
     }
     
     func nombres()
     {
         var nombres = records.nombres
-        
-        lblTop1.text = nombres[0]
-        lblTop2.text = nombres[1]
-        lblTop3.text = nombres[2]
-        lblTop4.text = nombres[3]
-        lblTop5.text = nombres[4]
+        if nombres.count >= 1 { lblTop1.text = nombres[0] } else { lblTop1.text = "" }
+            if nombres.count >= 2 { lblTop2.text = nombres[1] } else { lblTop2.text = "" }
+            if nombres.count >= 3 { lblTop3.text = nombres[2] } else { lblTop3.text = "" }
+            if nombres.count >= 4 { lblTop4.text = nombres[3] } else { lblTop4.text = "" }
+            if nombres.count >= 5 { lblTop5.text = nombres[4] } else { lblTop5.text = "" }
     }
     
     func puntos()
     {
         var puntos = records.puntos
         
-        lblPuntos1.text = "$\(puntos[0])"
-        lblPuntos2.text = "$\(puntos[1])"
-        lblPuntos3.text = "$\(puntos[2])"
-        lblPuntos4.text = "$\(puntos[3])"
-        lblPuntos5.text = "$\(puntos[4])"
+        if puntos.count >= 1 { lblPuntos1.text = "$\(puntos[0])" } else { lblPuntos1.text = "" }
+            if puntos.count >= 2 { lblPuntos2.text = "$\(puntos[1])" } else { lblPuntos2.text = "" }
+            if puntos.count >= 3 { lblPuntos3.text = "$\(puntos[2])" } else { lblPuntos3.text = "" }
+            if puntos.count >= 4 { lblPuntos4.text = "$\(puntos[3])" } else { lblPuntos4.text = "" }
+            if puntos.count >= 5 { lblPuntos5.text = "$\(puntos[4])" } else { lblPuntos5.text = "" }
     }
 
     /*
