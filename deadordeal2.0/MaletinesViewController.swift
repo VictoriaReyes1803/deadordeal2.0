@@ -215,8 +215,8 @@ class MaletinesViewController: UIViewController {
                         
                                     self.records.puntos.append(self.jugador.puntos)
                                     self.records.nombres.append(self.jugador.nombre)
+                            
                                     
-                                    // Verificar si el jugador ha ingresado al top 5
                                     for i in 0..<self.records.puntos.count {
                                         if self.jugador.puntos >= self.records.puntos[i] {
                                             self.records.puntos.insert(self.jugador.puntos, at: i)
@@ -225,12 +225,12 @@ class MaletinesViewController: UIViewController {
                                             let ok = UIAlertAction(title: "Aceptar", style: .default) { _ in
                                                 self.regresar()
                                             }
+                                            
                                             alerta.addAction(ok)
                                             self.present(alerta, animated: true)
                                             break
                                         }
                                     }
-                            self.records.save()
                             }
                     } else {
                         self.usuariomaletin.text = "Cantidad no disponible"
