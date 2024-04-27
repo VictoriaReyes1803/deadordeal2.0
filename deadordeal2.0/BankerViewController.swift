@@ -115,11 +115,12 @@ class BankerViewController: UIViewController {
                         {
                             records.puntos.insert(jugador.puntos, at: i)
                             records.nombres.insert(jugador.nombre, at: i)
+                            
                             break
                             
                         }
                     }
-                    records.save()
+                    
                 }
         }
         else
