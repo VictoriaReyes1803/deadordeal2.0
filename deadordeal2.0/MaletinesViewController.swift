@@ -213,8 +213,8 @@ class MaletinesViewController: UIViewController {
                                 print("Archivo de audio no encontrado")
                             }
                         
-                                    self.records.puntos.append(self.jugador.puntos)
-                                    self.records.nombres.append(self.jugador.nombre)
+                            self.records.puntos.removeLast()
+                            self.records.nombres.removeLast()
                             
                                     
                                     for i in 0..<self.records.puntos.count {
