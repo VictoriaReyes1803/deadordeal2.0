@@ -33,10 +33,9 @@
 		88FB6C1D2BDCA85B008ED25B /* fond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C1C2BDCA85B008ED25B /* fond.jpg */; };
 		88FB6C1F2BDCA869008ED25B /* maletin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C1E2BDCA869008ED25B /* maletin.jpg */; };
 		88FB6C212BDCA8CA008ED25B /* logodeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C202BDCA8CA008ED25B /* logodeal.png */; };
-		88FB6C232BDCA8DF008ED25B /* ddd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C222BDCA8DF008ED25B /* ddd.jpeg */; };
-		88FB6C262BDCA91F008ED25B /* Old victory sound roblox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C252BDCA91F008ED25B /* Old victory sound roblox.mp3 */; };
-		88FB6C282BDCA942008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C272BDCA942008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */; };
-		88FB6C2A2BDCA95A008ED25B /* new-york-skyline-203813.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C292BDCA95A008ED25B /* new-york-skyline-203813.mp3 */; };
+		88FB6C2E2BDCAB19008ED25B /* new-york-skyline-203813.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */; };
+		88FB6C302BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */; };
+		88FB6C342BDCABB2008ED25B /* Old victory sound roblox.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */; };
 		E8E011522BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E8E011512BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg */; };
 		E8E011552BC9AE8A00AE8700 /* Banker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E011542BC9AE8A00AE8700 /* Banker.storyboard */; };
 /* End PBXBuildFile section */
@@ -70,10 +69,9 @@
 		88FB6C1C2BDCA85B008ED25B /* fond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fond.jpg; sourceTree = "<group>"; };
 		88FB6C1E2BDCA869008ED25B /* maletin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maletin.jpg; sourceTree = "<group>"; };
 		88FB6C202BDCA8CA008ED25B /* logodeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logodeal.png; sourceTree = "<group>"; };
-		88FB6C222BDCA8DF008ED25B /* ddd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ddd.jpeg; path = ../../../../../Downloads/ddd.jpeg; sourceTree = "<group>"; };
-		88FB6C252BDCA91F008ED25B /* Old victory sound roblox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Old victory sound roblox.mp3"; path = "../../../../../Music/Music/Media.localized/Music/Heavy Pupper/Old victory sound roblox/Old victory sound roblox.mp3"; sourceTree = "<group>"; };
-		88FB6C272BDCA942008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "no-luck-too-bad-disappointing-sound-effect-112943.mp3"; path = "../../../../../Downloads/no-luck-too-bad-disappointing-sound-effect-112943.mp3"; sourceTree = "<group>"; };
-		88FB6C292BDCA95A008ED25B /* new-york-skyline-203813.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "new-york-skyline-203813.mp3"; path = "../../../../../Downloads/new-york-skyline-203813.mp3"; sourceTree = "<group>"; };
+		88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "new-york-skyline-203813.mp3"; sourceTree = "<group>"; };
+		88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "no-luck-too-bad-disappointing-sound-effect-112943.mp3"; sourceTree = "<group>"; };
+		88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Old victory sound roblox.mp3"; sourceTree = "<group>"; };
 		E8E011512BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrQJpS5WoAIP0rP.jpeg; sourceTree = "<group>"; };
 		E8E011542BC9AE8A00AE8700 /* Banker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Banker.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +145,6 @@
 		88CFCB952BA397D900537697 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				88FB6C222BDCA8DF008ED25B /* ddd.jpeg */,
 				88FB6C202BDCA8CA008ED25B /* logodeal.png */,
 				88FB6C1E2BDCA869008ED25B /* maletin.jpg */,
 				88FB6C1C2BDCA85B008ED25B /* fond.jpg */,
@@ -163,9 +160,9 @@
 		88FB6C242BDCA907008ED25B /* audios */ = {
 			isa = PBXGroup;
 			children = (
-				88FB6C292BDCA95A008ED25B /* new-york-skyline-203813.mp3 */,
-				88FB6C272BDCA942008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */,
-				88FB6C252BDCA91F008ED25B /* Old victory sound roblox.mp3 */,
+				88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */,
+				88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */,
+				88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */,
 			);
 			path = audios;
 			sourceTree = "<group>";
@@ -229,22 +226,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				884561A42BD8549700AF62B1 /* open_case.png in Resources */,
-				88FB6C2A2BDCA95A008ED25B /* new-york-skyline-203813.mp3 in Resources */,
 				88A1A2A12BC99C14005347D8 /* mujer.jpeg in Resources */,
 				88FB6C1D2BDCA85B008ED25B /* fond.jpg in Resources */,
 				88CFCB8E2BA3965900537697 /* LaunchScreen.storyboard in Resources */,
 				88CFCB8B2BA3965900537697 /* Assets.xcassets in Resources */,
-				88FB6C232BDCA8DF008ED25B /* ddd.jpeg in Resources */,
 				883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */,
-				88FB6C282BDCA942008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 in Resources */,
+				88FB6C302BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 in Resources */,
 				88CFCB892BA3965800537697 /* Main.storyboard in Resources */,
+				88FB6C342BDCABB2008ED25B /* Old victory sound roblox.mp3 in Resources */,
 				E8E011552BC9AE8A00AE8700 /* Banker.storyboard in Resources */,
 				88FB6C1F2BDCA869008ED25B /* maletin.jpg in Resources */,
-				88FB6C262BDCA91F008ED25B /* Old victory sound roblox.mp3 in Resources */,
 				E8E011522BC9AAA300AE8700 /* DrQJpS5WoAIP0rP.jpeg in Resources */,
 				884F3A652BC84CB600D7867F /* letsstar.jpeg in Resources */,
 				88FB6C1B2BDCA84A008ED25B /* Deal_or_No_Deal_Logo_2024.jpg in Resources */,
 				88FB6C212BDCA8CA008ED25B /* logodeal.png in Resources */,
+				88FB6C2E2BDCAB19008ED25B /* new-york-skyline-203813.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
