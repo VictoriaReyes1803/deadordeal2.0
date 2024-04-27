@@ -6,11 +6,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MaletinabiertoViewController: UIViewController {
     @IBOutlet weak var lblCantidad: UILabel!
     
-    @IBOutlet weak var imgMujer: UIImageView!
+    @IBOutlet weak var imgMaletin: UIImageView!
     var cantidadMostrada: String?
     
     //variables vienen de Maletines
@@ -21,9 +22,29 @@ class MaletinabiertoViewController: UIViewController {
     var cantidadIndex:Int = 0
     var cases = 0
     var tagC = [Int]()
-
+    var audioPlayer: AVAudioPlayer!
+    var player = AVAudioPlayer()
+    
+    
         override func viewDidLoad() {
             super.viewDidLoad()
+            
+            let audioFilename = "Old victory sound roblox"
+            
+            if let audioURL = Bundle.main.url(forResource: audioFilename, withExtension: "mp3")
+            {
+                do {
+                    audioPlayer = try AVAudioPlayer(contentsOf: audioURL)
+                    audioPlayer.numberOfLoops = 0
+                    audioPlayer.play()
+                } catch {
+                    print("Error al inicializar el reproductor de audio: \(error.localizedDescription)")
+                }
+            } else {
+                print("Archivo de audio no encontrado")
+            }
+        
+            
             if let cantidad = cantidadMostrada {
                        lblCantidad.text = "$" + cantidad + ".00"
                 self.performSegue(withIdentifier: "Quitadinero", sender: cantidad)
@@ -35,9 +56,11 @@ class MaletinabiertoViewController: UIViewController {
             let h = 0.5 * w
             let x = (view.frame.width - w)/2
             let y = -h
-            imgMujer.frame = CGRect(x: x, y: y, width: w, height: h)
-            imgMujer.alpha = 0.0
-            imgMujer.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+            lblCantidad.alpha = 0.0
+            lblCantidad.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+            imgMaletin.frame = CGRect(x: x, y: y, width: w, height: h)
+            imgMaletin.alpha = 0.0
+            imgMaletin.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
         }
         
         override func viewDidAppear(_ animated: Bool) {
@@ -51,9 +74,11 @@ class MaletinabiertoViewController: UIViewController {
                            animations: {
                 let centerX = self.view.frame.width / 2
                 let centerY = self.view.frame.height / 2
-                self.imgMujer.center = CGPoint(x: centerX, y: centerY)
-                self.imgMujer.alpha = 1.0
-                self.imgMujer.transform = CGAffineTransform.identity
+                self.imgMaletin.center = CGPoint(x: centerX, y: centerY)
+                self.lblCantidad.alpha = 1.0
+                self.lblCantidad.transform = CGAffineTransform.identity
+                self.imgMaletin.alpha = 1.0
+                self.imgMaletin.transform = CGAffineTransform.identity
             },
                            completion: { finished in
                 if finished {
@@ -75,4 +100,9 @@ class MaletinabiertoViewController: UIViewController {
         }
         
     }
+    
+    @IBAction func regresar(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
 }

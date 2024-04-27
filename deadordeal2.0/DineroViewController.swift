@@ -72,17 +72,8 @@ class DineroViewController: UIViewController {
                }
            })
        }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "Money-Maletines" {
-             let cant = segue.destination as! MaletinesViewController
-            cant.maletinUsuario = maletinUsuario
-            cant.cantidadeselegidas = cantidadeselegidas
-            cant.contadorClicks = contadorClicks
-            cant.tagC = tagC
-            cant.cases = cases
-                
-                print ("Pasaste a Maletines")
-        }
-       
+  
+    @IBAction func regresar(_ sender: Any) {
+        self.dismiss(animated: true)
     }
-   }
+}

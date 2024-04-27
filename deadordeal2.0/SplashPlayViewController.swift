@@ -9,10 +9,11 @@ import UIKit
 
 class SplashPlayViewController: UIViewController {
     
+    var jugador = Jugador.sharedData()
     @IBOutlet weak var imvSplashPlay: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("nombre del mono: \(jugador.nombre)")
         let w = 0.9 * view.frame.width
         let h = 0.5 * w
         let x = (view.frame.width - w)/2

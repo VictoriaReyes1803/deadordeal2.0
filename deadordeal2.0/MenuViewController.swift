@@ -6,24 +6,41 @@
 //
 
 import UIKit
-
-class MenuViewController: UIViewController {
-
+import AVFoundation
+class MenuViewController: UIViewController{
+    @IBOutlet weak var btnJugar: UIButton!
+    @IBOutlet weak var txfNombre: UITextField!
+    var audio: AVAudioPlayer?
+    var player = AVAudioPlayer()
+    var audioDetener: AVAudioPlayer?
+    var jugador  = Jugador.sharedData()
+    let records =  Record.sharedRecords()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print("nombres: \(records.nombres)")
+        print("puntos: \(records.puntos)")
+        print("puntos: \(jugador.puntos)")
+        btnJugar.isEnabled = false
+        (UIApplication.shared.delegate as? AppDelegate)?.playAudio()
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ocultarTeclado))
+        view.addGestureRecognizer(tapGesture)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func jugar(_ sender: UIButton) {
+        var jugadorNombre = txfNombre.text
+        jugador.guardarNombre(jugadorNombre!)
+        performSegue(withIdentifier: "sgSplashPlay", sender: self)
+        print("nombre")
     }
-    */
+    @IBAction func ocultarTeclado()
+    {
+        view.endEditing(true)
+    }
+    
+    @IBAction func textFieldDidChange(_ textField: UITextField) {
+        btnJugar.isEnabled = textField.text?.count ?? 0 >= 3
+    }
+
+    
 
 }
