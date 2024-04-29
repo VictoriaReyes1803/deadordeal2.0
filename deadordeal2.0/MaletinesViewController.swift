@@ -31,9 +31,13 @@ class MaletinesViewController: UIViewController {
     var cantidadLlevada:Int = 0
     var cantidadeselegidas = [Int]()
     var contadorClicks = 1
-    var cases = 1
+
     var cantidadIndex:Int = 0
     var cases = 5
+    var cases1 = 4
+    var cases2 = 3
+    var cases3 = 2
+    var cases4 = 1
     let maletin = Maletin.sharedData()
     var tagC = [Int]()
     var audioPlayer: AVAudioPlayer!
@@ -113,82 +117,108 @@ startT()
             contadorClicks = contadorClicks + 1
             botondevolver.setTitle("Aceptar", for: .normal)
            
-            LblChoosecases.isHidden = true
+            LblChoosecases.isHidden = false
             usuariomaletin.text = "$" + String(cantidadIndex)
                 maletinarriba.isHidden = false
             
         }
-        else if contadorClicks == 6 || contadorClicks == 11
-        {
+        else if contadorClicks == 6 || contadorClicks == 10 || contadorClicks == 13 || contadorClicks == 15
+        {LblChoosecases.isHidden = true
             cantidadLlevada += cantidadIndex
             cantidadeselegidas.append(cantidadIndex)
             contadorClicks = contadorClicks + 1
-            if contadorClicks == 6 {
-                cases = 5
-            } else if contadorClicks == 11
-            {
-                cases = 4
-            }
             LblChoosecases.isHidden = true
             self.performSegue(withIdentifier: "dealornodeal", sender: cantidadeselegidas)
             //siguio jugando
         
-        } else if contadorClicks > 6 && contadorClicks < 11
+        } else if contadorClicks > 6 && contadorClicks < 10
         
-        {   lblTitulo.text = "Ronda 2"
-            
-            LblChoosecases.text = "Choose " + String(cases) + "  briefcases"
+        {
+            lblTitulo.text = "Ronda 2"
+            cases1 -= 1
+            LblChoosecases.text = "Choose " + String(cases1) + "  briefcases"
             LblChoosecases.isHidden = false
             print("Choose \(String(cases))  briefcases")
-            cases -= 1
+           
             print(cantidadIndex)
             cantidadLlevada += cantidadIndex
             cantidadeselegidas.append(cantidadIndex)
             contadorClicks = contadorClicks + 1
             botondevolver.setTitle("aceptar", for: .normal)
             titlee.isHidden = true
-            LblChoosecases.isHidden = true
+           
             usuariomaletin.text = "$" + String(cantidadIndex)
                 maletinarriba.isHidden = false
            
         
             
-        } else if contadorClicks > 11 && contadorClicks <= 17
+        }
+    else if contadorClicks > 10 && contadorClicks < 13
+    
+    {   lblTitulo.text = "Ronda 3"
+        cases2 -= 1
+        LblChoosecases.text = "Choose " + String(cases2) + "  briefcases"
+        LblChoosecases.isHidden = false
+        print("Choose \(String(cases))  briefcases")
+    
+        print(cantidadIndex)
+        cantidadLlevada += cantidadIndex
+        cantidadeselegidas.append(cantidadIndex)
+        contadorClicks = contadorClicks + 1
+        botondevolver.setTitle("aceptar", for: .normal)
+        titlee.isHidden = true
+       
+        usuariomaletin.text = "$" + String(cantidadIndex)
+            maletinarriba.isHidden = false
+       
+    
+        
+        }
+        
+        
+        
+        
+        else if contadorClicks > 13 && contadorClicks <= 16
         {
-            lblTitulo.text = "Ronda 3"
-                LblChoosecases.isHidden = false
-                LblChoosecases.text = "Choose " + String(cases) + "  briefcases"
-                
-                cases -= 1
-               
-                cantidadLlevada += cantidadIndex
-                cantidadeselegidas.append(cantidadIndex)
-                contadorClicks = contadorClicks + 1
+            lblTitulo.text = "Ronda 4"
+            
+            cases3 -= 1
+            LblChoosecases.text = "Choose " + String(cases3) + "  briefcases"
+            LblChoosecases.isHidden = false
+           
+            
+            cantidadLlevada += cantidadIndex
+            cantidadeselegidas.append(cantidadIndex)
+            contadorClicks = contadorClicks + 1
             botondevolver.setTitle("aceptar", for: .normal)
             titlee.isHidden = true
-            LblChoosecases.isHidden = true
+            
             usuariomaletin.text = "$" + String(cantidadIndex)
-                maletinarriba.isHidden = false
+            maletinarriba.isHidden = false
+        }
             if contadorClicks == 17
                         
-            { lblTitulo.text = "ULTIMOOO MALETINN"
+            { lblTitulo.text = "Ronda 5"
                 LblChoosecases.isHidden = false
-                LblChoosecases.text = "Choose " + String(cases) + "  briefcases"
-                cases -= 1
+                LblChoosecases.text = "Choose " + String(cases4) + "  briefcases"
+                titlee.isHidden = false
                 cantidadLlevada += cantidadIndex
                 cantidadeselegidas.append(cantidadIndex)
                 contadorClicks = contadorClicks + 1
-                botondevolver.isHidden = true
-                titlee.isHidden = true
+                botondevolver.setTitle("aceptar", for: .normal)
+                
+                titlee.isHidden = false
+                titlee.text = "Espera, elije vender tu maletin o tomarlo"
                 LblChoosecases.isHidden = true
                 usuariomaletin.text = "$" + String(cantidadIndex)
                 maletinarriba.isHidden = false
+                
 
-                // Oculta la vista actual después de un tiempo
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { // Cambia el valor de 2.0 a la cantidad de segundos que desees
-                    // Muestra la siguiente vista
-                    self.lblTitulo.text = "Llegaste a tu maletin"
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 9.0) {
                     
+                    self.lblTitulo.text = "Llegaste a tu maletin"
+                    self.botondevolver.isHidden = false
                     self.LblChoosecases.isHidden = true
                     if let cantidadMaletin = self.maletinUsuario?.cantidad {
                         self.usuariomaletin.text = "$" + String(cantidadMaletin)
@@ -265,7 +295,6 @@ startT()
             }
             
            
-        }
         
             
             
@@ -290,10 +319,22 @@ startT()
     @IBAction func botondevolver(_ sender: Any) {
         if contadorClicks < 18 {
             maletinarriba.isHidden = true
+            self.performSegue(withIdentifier: "Quitadinero", sender: nil)
             
             
         
-        } else if contadorClicks == 18 {
+        }else if contadorClicks == 18 {
+            LblChoosecases.isHidden = true
+                cantidadLlevada += cantidadIndex
+                cantidadeselegidas.append(cantidadIndex)
+                contadorClicks = contadorClicks + 1
+                LblChoosecases.isHidden = true
+            botondevolver.isHidden = true
+                self.performSegue(withIdentifier: "dealornodeal", sender: cantidadeselegidas)
+                //ultima oferta
+            
+        }
+        else if contadorClicks == 19 {
             
          
             contadorClicks = 1
@@ -307,16 +348,16 @@ startT()
         
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "MuestraDinero" {
+        if segue.identifier == "Quitadinero" {
             let cant = segue.destination as! DineroViewController
-            cant.cantidadIndex = maletin.cantidad
+            cant.Dinero = String(maletin.cantidad)
             cant.maletinUsuario = maletinUsuario
             cant.cantidadeselegidas = cantidadeselegidas
             cant.contadorClicks = contadorClicks
             cant.tagC = tagC
             cant.cases = cases
             
-            print ("Valores pasados a Muestra Dinero")
+            print ("Valores pasados a Quita dinero Dinero")
         }
         else if segue.identifier == "dealornodeal"
         {
