@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8838045E2BE0292400414051 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8838045D2BE0292400414051 /* sonido.mp3 */; };
+		883804602BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */; };
 		883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883EBB852BD023CD00C953AF /* fond copia.jpg */; };
 		884561A02BD84CB100AF62B1 /* BankerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845619F2BD84CB100AF62B1 /* BankerViewController.swift */; };
 		884561A22BD850B900AF62B1 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884561A12BD850B900AF62B1 /* Jugador.swift */; };
 		884561A42BD8549700AF62B1 /* open_case.png in Resources */ = {isa = PBXBuildFile; fileRef = 884561A32BD8549700AF62B1 /* open_case.png */; };
 		884561A72BD854C000AF62B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884561A62BD854C000AF62B1 /* AVFoundation.framework */; };
 		884561A92BD872BA00AF62B1 /* Maletin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884561A82BD872BA00AF62B1 /* Maletin.swift */; };
-		884842AE2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */; };
-		884842B02BDD6AE800CDC1FA /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 884842AF2BDD6AE800CDC1FA /* sonido.mp3 */; };
 		884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A5E2BC8412900D7867F /* SplashViewController.swift */; };
 		884F3A632BC8435D00D7867F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F3A622BC8435D00D7867F /* MenuViewController.swift */; };
 		884F3A652BC84CB600D7867F /* letsstar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 884F3A642BC84CB600D7867F /* letsstar.jpeg */; };
@@ -43,14 +43,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8838045D2BE0292400414051 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sonido.mp3; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/sonido.mp3"; sourceTree = "<group>"; };
+		8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pad-high-tension-and-suspense-background-filler-162365.mp3"; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/pad-high-tension-and-suspense-background-filler-162365.mp3"; sourceTree = "<group>"; };
 		883EBB852BD023CD00C953AF /* fond copia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond copia.jpg"; sourceTree = "<group>"; };
 		8845619F2BD84CB100AF62B1 /* BankerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankerViewController.swift; sourceTree = "<group>"; };
 		884561A12BD850B900AF62B1 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
 		884561A32BD8549700AF62B1 /* open_case.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open_case.png; sourceTree = "<group>"; };
 		884561A62BD854C000AF62B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		884561A82BD872BA00AF62B1 /* Maletin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maletin.swift; sourceTree = "<group>"; };
-		884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pad-high-tension-and-suspense-background-filler-162365.mp3"; path = "../../../../../Downloads/pad-high-tension-and-suspense-background-filler-162365.mp3"; sourceTree = "<group>"; };
-		884842AF2BDD6AE800CDC1FA /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sonido.mp3; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/sonido.mp3"; sourceTree = "<group>"; };
 		884F3A5E2BC8412900D7867F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		884F3A622BC8435D00D7867F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		884F3A642BC84CB600D7867F /* letsstar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = letsstar.jpeg; sourceTree = "<group>"; };
@@ -129,7 +129,6 @@
 				88A1A29E2BC974CC005347D8 /* MaletinesViewController.swift */,
 				8845619F2BD84CB100AF62B1 /* BankerViewController.swift */,
 				88CFCB852BA3965800537697 /* ViewController.swift */,
-				884D27D82BCDA9F500389A4F /* BankeroViewController.swift */,
 				88A1A2A22BC9A6CF005347D8 /* MaletinabiertoViewController.swift */,
 				884561A82BD872BA00AF62B1 /* Maletin.swift */,
 				887EB4582BDB3DE500181AE1 /* RecordsViewController.swift */,
@@ -165,8 +164,8 @@
 		88FB6C242BDCA907008ED25B /* audios */ = {
 			isa = PBXGroup;
 			children = (
-				884842AF2BDD6AE800CDC1FA /* sonido.mp3 */,
-				884842AD2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 */,
+				8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */,
+				8838045D2BE0292400414051 /* sonido.mp3 */,
 				88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */,
 				88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */,
 				88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */,
@@ -232,11 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884842AE2BDD69A300CDC1FA /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */,
+				883804602BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */,
 				884561A42BD8549700AF62B1 /* open_case.png in Resources */,
+				8838045E2BE0292400414051 /* sonido.mp3 in Resources */,
 				88A1A2A12BC99C14005347D8 /* mujer.jpeg in Resources */,
 				88FB6C1D2BDCA85B008ED25B /* fond.jpg in Resources */,
-				884842B02BDD6AE800CDC1FA /* sonido.mp3 in Resources */,
 				88CFCB8E2BA3965900537697 /* LaunchScreen.storyboard in Resources */,
 				88CFCB8B2BA3965900537697 /* Assets.xcassets in Resources */,
 				883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */,
@@ -274,7 +273,6 @@
 				884F3A5F2BC8412900D7867F /* SplashViewController.swift in Sources */,
 				884561A92BD872BA00AF62B1 /* Maletin.swift in Sources */,
 				884F3A672BC84CEC00D7867F /* SplashPlayViewController.swift in Sources */,
-				884D27D92BCDA9F500389A4F /* BankeroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
