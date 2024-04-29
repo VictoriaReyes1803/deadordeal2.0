@@ -20,6 +20,7 @@ class BankerViewController: UIViewController {
     var jugador =  Jugador.sharedData()
     var maletin: Int!
     let records = Record.sharedRecords()
+    let maletinClass = Maletin.sharedData()
     
     
     //variables vienen de Maletines
@@ -75,6 +76,9 @@ class BankerViewController: UIViewController {
         let randomNumber = 501 + Int(arc4random_uniform(UInt32(50000 - 501)))
         oferta = randomNumber
         lbOferta.text = "$\(String(oferta))"
+        maletinClass.guardarOferta(oferta)
+        
+        
     }
     
     func startTimer() {
@@ -176,6 +180,7 @@ class BankerViewController: UIViewController {
     
     @IBAction func nodeal(_ sender: Any) {
         self.dismiss(animated: true)
+        maletinClass.guardarOferta(oferta)
     }
     func regresar()
     {

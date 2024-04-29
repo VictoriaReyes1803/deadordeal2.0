@@ -20,6 +20,7 @@ class MaletinesViewController: UIViewController {
     @IBOutlet weak var maletinarriba: UIView!
     @IBOutlet weak var lblCases: UILabel!
     let records = Record.sharedRecords()
+    let maletinClass = Maletin.sharedData()
     @IBOutlet weak var titlee: UILabel!
     
     @IBOutlet weak var botondevolver: UIButton!
@@ -208,14 +209,14 @@ startT()
                 botondevolver.setTitle("aceptar", for: .normal)
                 
                 titlee.isHidden = false
-                titlee.text = "Espera, elije vender tu maletin o tomarlo"
+                titlee.text = "Ultimo maletin! Espera, elije vender tu maletin o tomarlo"
                 LblChoosecases.isHidden = true
                 usuariomaletin.text = "$" + String(cantidadIndex)
                 maletinarriba.isHidden = false
                 
 
                 
-                DispatchQueue.main.asyncAfter(deadline: .now() + 9.0) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 14.0) {
                     
                     self.lblTitulo.text = "Llegaste a tu maletin"
                     self.botondevolver.isHidden = false
@@ -223,8 +224,8 @@ startT()
                     if let cantidadMaletin = self.maletinUsuario?.cantidad {
                         self.usuariomaletin.text = "$" + String(cantidadMaletin)
                         self.jugador.guardarPuntos(cantidadMaletin)
-                        if cantidadMaletin <= 1000
-                        { self.titlee.text = "Lástima =("
+                        if cantidadMaletin <= self.maletinClass.oferta
+                        { self.titlee.text = "Lástima =( Debiste aceptar la oferta: $\(self.maletinClass.oferta)"
                             let audioFilename = "no-luck-too-bad-disappointing-sound-effect-112943"
                             
                             if let audioURL = Bundle.main.url(forResource: audioFilename, withExtension: "mp3")
