@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8838045E2BE0292400414051 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8838045D2BE0292400414051 /* sonido.mp3 */; };
-		883804602BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */; };
+		883804632BE02A4900414051 /* sonido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 883804612BE02A4900414051 /* sonido.mp3 */; };
+		883804642BE02A4900414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 883804622BE02A4900414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */; };
 		883EBB862BD023CD00C953AF /* fond copia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 883EBB852BD023CD00C953AF /* fond copia.jpg */; };
 		884561A02BD84CB100AF62B1 /* BankerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8845619F2BD84CB100AF62B1 /* BankerViewController.swift */; };
 		884561A22BD850B900AF62B1 /* Jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884561A12BD850B900AF62B1 /* Jugador.swift */; };
@@ -43,8 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8838045D2BE0292400414051 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sonido.mp3; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/sonido.mp3"; sourceTree = "<group>"; };
-		8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pad-high-tension-and-suspense-background-filler-162365.mp3"; path = "../../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/pad-high-tension-and-suspense-background-filler-162365.mp3"; sourceTree = "<group>"; };
+		883804612BE02A4900414051 /* sonido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sonido.mp3; sourceTree = "<group>"; };
+		883804622BE02A4900414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pad-high-tension-and-suspense-background-filler-162365.mp3"; sourceTree = "<group>"; };
 		883EBB852BD023CD00C953AF /* fond copia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fond copia.jpg"; sourceTree = "<group>"; };
 		8845619F2BD84CB100AF62B1 /* BankerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankerViewController.swift; sourceTree = "<group>"; };
 		884561A12BD850B900AF62B1 /* Jugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jugador.swift; sourceTree = "<group>"; };
@@ -164,8 +164,8 @@
 		88FB6C242BDCA907008ED25B /* audios */ = {
 			isa = PBXGroup;
 			children = (
-				8838045F2BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */,
-				8838045D2BE0292400414051 /* sonido.mp3 */,
+				883804622BE02A4900414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 */,
+				883804612BE02A4900414051 /* sonido.mp3 */,
 				88FB6C332BDCABB2008ED25B /* Old victory sound roblox.mp3 */,
 				88FB6C2F2BDCAB69008ED25B /* no-luck-too-bad-disappointing-sound-effect-112943.mp3 */,
 				88FB6C2D2BDCAB19008ED25B /* new-york-skyline-203813.mp3 */,
@@ -231,9 +231,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883804602BE0292F00414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */,
+				883804642BE02A4900414051 /* pad-high-tension-and-suspense-background-filler-162365.mp3 in Resources */,
 				884561A42BD8549700AF62B1 /* open_case.png in Resources */,
-				8838045E2BE0292400414051 /* sonido.mp3 in Resources */,
+				883804632BE02A4900414051 /* sonido.mp3 in Resources */,
 				88A1A2A12BC99C14005347D8 /* mujer.jpeg in Resources */,
 				88FB6C1D2BDCA85B008ED25B /* fond.jpg in Resources */,
 				88CFCB8E2BA3965900537697 /* LaunchScreen.storyboard in Resources */,
@@ -425,7 +425,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
