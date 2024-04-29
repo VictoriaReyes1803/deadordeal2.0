@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       abrirArchivo()
         return true
     }
 
@@ -52,6 +53,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         func stopAudio() {
                 player?.stop()
         }
+    
+    func abrirArchivo()
+    {
+        let records = Record.sharedRecords()
+        let ruta = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] + "/records.plist"
+        let urlArchivo = URL(fileURLWithPath: ruta)
+        
+        do
+        {
+            let archivo = try Data.init(contentsOf: urlArchivo)
+            let diccionario = try PropertyListSerialization.propertyList(from: archivo, format: nil) as! [String:Any]
+            
+            records.nombres = diccionario["nombres"] as! [String]
+            records.puntos = diccionario["puntos"] as! [Int]
+        }
+        catch
+        {
+            print("Algo salió mal =(")
+        }
+    }
 
 }
 

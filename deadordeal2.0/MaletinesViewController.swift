@@ -307,7 +307,7 @@ startT()
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MuestraDinero" {
             let cant = segue.destination as! DineroViewController
-            cant.cantidadIndex = self.cantidadIndex
+            cant.cantidadIndex = maletin.cantidad
             cant.maletinUsuario = maletinUsuario
             cant.cantidadeselegidas = cantidadeselegidas
             cant.contadorClicks = contadorClicks
@@ -344,19 +344,26 @@ startT()
     deinit {
             // Detener el temporizador cuando se destruye la vista
             stopTimer()
-        }
+    }
         
     func startT() {
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { [weak self] _ in
             guard let self = self else { return }
             self.segundosTranscurridos += 1
-            self.contadorSegundos.text = ":\(self.segundosTranscurridos)"
+            if self.segundosTranscurridos >= 60 {
+                        let minutos = self.segundosTranscurridos / 60
+                        let segundos = self.segundosTranscurridos % 60
+                        self.contadorSegundos.text = "\(minutos):\(segundos)"
+                    } else {
+                        self.contadorSegundos.text = ":\(self.segundosTranscurridos)"
+                    }
         }
     }
+    
         
-        func stopTimer() {
+    func stopTimer() {
             timer?.invalidate()
             timer = nil
-        }
+    }
         
 }

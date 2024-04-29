@@ -34,7 +34,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillResignActive(_ scene: UIScene) {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
-        
+        guardarArchivo()
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {
@@ -48,6 +48,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
    
+    func guardarArchivo()
+    {
+        let records = Record.sharedRecords()
+        let ruta = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] + "/records.plist"
+        let urlArchivo = URL(fileURLWithPath: ruta)
+        
+        let diccionario:[String:Any] = Dictionary(dictionaryLiteral: ("nombres",records.nombres), ("puntos", records.puntos))
+        
+        do
+        {
+            let archivo = try PropertyListSerialization.data(fromPropertyList: diccionario, format: .xml, options: NSPropertyListWriteStreamError)
+            try archivo.write(to: urlArchivo)
+        }
+        catch
+        {
+            print("Algo salió mal =(")
+        }
+    }
 
 }
 
