@@ -236,10 +236,10 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open_case.png" translatesAutoresizingMaskIntoConstraints="NO" id="p1r-DK-T1I">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1080"/>
                                     </imageView>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espera..!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56M-sL-qqM">
-                                        <rect key="frame" x="0.0" y="110" width="414" height="50"/>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Espera..!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56M-sL-qqM">
+                                        <rect key="frame" x="0.0" y="150" width="414" height="90"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="56N-5o-QsC"/>
+                                            <constraint firstAttribute="height" constant="90" id="56N-5o-QsC"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
                                         <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
@@ -280,7 +280,7 @@
                                     <constraint firstItem="p1r-DK-T1I" firstAttribute="centerY" secondItem="CtC-Hw-EdA" secondAttribute="centerY" id="BhH-z2-R8c"/>
                                     <constraint firstItem="p1r-DK-T1I" firstAttribute="height" secondItem="CtC-Hw-EdA" secondAttribute="height" id="CgB-qu-Ih5"/>
                                     <constraint firstItem="elu-wi-nQq" firstAttribute="width" secondItem="CtC-Hw-EdA" secondAttribute="width" multiplier="0.560748" id="NrO-cA-zJ8"/>
-                                    <constraint firstItem="56M-sL-qqM" firstAttribute="top" secondItem="CtC-Hw-EdA" secondAttribute="top" constant="110" id="Om8-xi-1cO"/>
+                                    <constraint firstItem="56M-sL-qqM" firstAttribute="top" secondItem="CtC-Hw-EdA" secondAttribute="top" constant="150" id="Om8-xi-1cO"/>
                                     <constraint firstItem="elu-wi-nQq" firstAttribute="centerX" secondItem="CtC-Hw-EdA" secondAttribute="centerX" id="aFw-yf-QgR"/>
                                     <constraint firstItem="RaC-FR-DMN" firstAttribute="centerY" secondItem="CtC-Hw-EdA" secondAttribute="centerY" multiplier="0.9" id="c5n-ae-cqS"/>
                                     <constraint firstItem="A1a-To-JF8" firstAttribute="centerX" secondItem="CtC-Hw-EdA" secondAttribute="centerX" id="cJU-ke-mZ5"/>
